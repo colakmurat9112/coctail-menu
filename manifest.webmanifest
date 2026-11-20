@@ -1,0 +1,22 @@
+{
+  "name": "Modern Classics · Kokteyl Kitabı",
+  "short_name": "Modern Classics",
+  "description": "Terpen eşleşmeli, pre-batch modern klasik kokteyller ve ev hazırlıkları.",
+  "lang": "tr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#100e0d",
+  "theme_color": "#100e0d",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Tadım Defteri", "url": "./#/defter", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Menü Taslağı", "url": "./#/menu", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Ev Hazırlıkları", "url": "./#/hazirliklar", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]}
+  ]
+}

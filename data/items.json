@@ -1,0 +1,971 @@
+{
+ "note": "Fiyatlar Almanya toptan (Metro vb.) için tahmini NET (KDV hariç) ortalamalardır. Uygulamadaki Fiyatlar sayfasından kendi fiyatlarını girebilirsin.",
+ "items": [
+  {
+   "id": "b_planteray3",
+   "n": "Planteray 3 Stars",
+   "cat": "Rom",
+   "u": "ml",
+   "pack": 700,
+   "price": 18,
+   "abv": 41.2
+  },
+  {
+   "id": "b_smithcross",
+   "n": "Smith & Cross Navy Strength",
+   "cat": "Rom",
+   "u": "ml",
+   "pack": 700,
+   "price": 30,
+   "abv": 57
+  },
+  {
+   "id": "b_eldorado8",
+   "n": "El Dorado 8",
+   "cat": "Rom",
+   "u": "ml",
+   "pack": 700,
+   "price": 24,
+   "abv": 40
+  },
+  {
+   "id": "b_rhumjm",
+   "n": "Rhum J.M Blanc 50",
+   "cat": "Rom",
+   "u": "ml",
+   "pack": 700,
+   "price": 29,
+   "abv": 50
+  },
+  {
+   "id": "b_wray",
+   "n": "Wray & Nephew Overproof",
+   "cat": "Rom",
+   "u": "ml",
+   "pack": 700,
+   "price": 22,
+   "abv": 63
+  },
+  {
+   "id": "b_beefeater",
+   "n": "Beefeater London Dry",
+   "cat": "Cin",
+   "u": "ml",
+   "pack": 700,
+   "price": 14,
+   "abv": 40
+  },
+  {
+   "id": "b_hendricks",
+   "n": "Hendrick's",
+   "cat": "Cin",
+   "u": "ml",
+   "pack": 700,
+   "price": 27,
+   "abv": 41.4
+  },
+  {
+   "id": "b_roku",
+   "n": "Roku Gin",
+   "cat": "Cin",
+   "u": "ml",
+   "pack": 700,
+   "price": 23,
+   "abv": 43
+  },
+  {
+   "id": "b_ginmare",
+   "n": "Gin Mare",
+   "cat": "Cin",
+   "u": "ml",
+   "pack": 700,
+   "price": 29,
+   "abv": 42.7
+  },
+  {
+   "id": "b_buffalo",
+   "n": "Buffalo Trace Bourbon",
+   "cat": "Viski",
+   "u": "ml",
+   "pack": 700,
+   "price": 24,
+   "abv": 40
+  },
+  {
+   "id": "b_rye",
+   "n": "Rittenhouse Rye",
+   "cat": "Viski",
+   "u": "ml",
+   "pack": 700,
+   "price": 28,
+   "abv": 50
+  },
+  {
+   "id": "b_scotch",
+   "n": "Monkey Shoulder (Blended Malt)",
+   "cat": "Viski",
+   "u": "ml",
+   "pack": 700,
+   "price": 25,
+   "abv": 40
+  },
+  {
+   "id": "b_laphroaig",
+   "n": "Laphroaig 10",
+   "cat": "Viski",
+   "u": "ml",
+   "pack": 700,
+   "price": 30,
+   "abv": 40
+  },
+  {
+   "id": "b_olmeca",
+   "n": "Olmeca Altos Plata",
+   "cat": "Agave",
+   "u": "ml",
+   "pack": 700,
+   "price": 21,
+   "abv": 38
+  },
+  {
+   "id": "b_vida",
+   "n": "Del Maguey Vida Mezcal",
+   "cat": "Agave",
+   "u": "ml",
+   "pack": 700,
+   "price": 37,
+   "abv": 42
+  },
+  {
+   "id": "b_vodka",
+   "n": "Votka (Absolut vb.)",
+   "cat": "Votka",
+   "u": "ml",
+   "pack": 700,
+   "price": 11,
+   "abv": 40
+  },
+  {
+   "id": "b_cognac",
+   "n": "Pierre Ferrand 1840",
+   "cat": "Brendi",
+   "u": "ml",
+   "pack": 700,
+   "price": 30,
+   "abv": 45
+  },
+  {
+   "id": "b_campari",
+   "n": "Campari",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 13,
+   "abv": 25
+  },
+  {
+   "id": "b_aperol",
+   "n": "Aperol",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 10,
+   "abv": 11
+  },
+  {
+   "id": "b_suze",
+   "n": "Suze",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 1000,
+   "price": 16,
+   "abv": 15
+  },
+  {
+   "id": "b_italicus",
+   "n": "Italicus",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 28,
+   "abv": 20
+  },
+  {
+   "id": "b_stgermain",
+   "n": "St-Germain",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 27,
+   "abv": 20
+  },
+  {
+   "id": "b_chartverte",
+   "n": "Chartreuse Verte",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 42,
+   "abv": 55
+  },
+  {
+   "id": "b_lillet",
+   "n": "Lillet Blanc",
+   "cat": "Vermut & Şarap",
+   "u": "ml",
+   "pack": 750,
+   "price": 13,
+   "abv": 17
+  },
+  {
+   "id": "b_dolin",
+   "n": "Dolin Dry",
+   "cat": "Vermut & Şarap",
+   "u": "ml",
+   "pack": 750,
+   "price": 12,
+   "abv": 17.5
+  },
+  {
+   "id": "b_cocchi",
+   "n": "Cocchi Vermouth di Torino",
+   "cat": "Vermut & Şarap",
+   "u": "ml",
+   "pack": 750,
+   "price": 16,
+   "abv": 16
+  },
+  {
+   "id": "b_carpano",
+   "n": "Carpano Antica Formula",
+   "cat": "Vermut & Şarap",
+   "u": "ml",
+   "pack": 1000,
+   "price": 20,
+   "abv": 16.5
+  },
+  {
+   "id": "b_px",
+   "n": "Pedro Ximénez Sherry",
+   "cat": "Vermut & Şarap",
+   "u": "ml",
+   "pack": 750,
+   "price": 13,
+   "abv": 17
+  },
+  {
+   "id": "b_ferrand",
+   "n": "Pierre Ferrand Dry Curaçao",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 24,
+   "abv": 40
+  },
+  {
+   "id": "b_maraschino",
+   "n": "Luxardo Maraschino",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 21,
+   "abv": 32
+  },
+  {
+   "id": "b_benedictine",
+   "n": "Bénédictine",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 24,
+   "abv": 40
+  },
+  {
+   "id": "b_fernet",
+   "n": "Fernet-Branca",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 17,
+   "abv": 39
+  },
+  {
+   "id": "b_montenegro",
+   "n": "Amaro Montenegro",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 17,
+   "abv": 23
+  },
+  {
+   "id": "b_amaretto",
+   "n": "Disaronno Amaretto",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 13,
+   "abv": 28
+  },
+  {
+   "id": "b_falernum",
+   "n": "Velvet Falernum",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 16,
+   "abv": 11
+  },
+  {
+   "id": "b_allspice",
+   "n": "St. Elizabeth Allspice Dram",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 23,
+   "abv": 22.5
+  },
+  {
+   "id": "b_banane",
+   "n": "Giffard Banane du Brésil",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 19,
+   "abv": 25
+  },
+  {
+   "id": "b_kahlua",
+   "n": "Kahlúa",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 13,
+   "abv": 20
+  },
+  {
+   "id": "b_ancho",
+   "n": "Ancho Reyes",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 26,
+   "abv": 40
+  },
+  {
+   "id": "b_absinthe",
+   "n": "Pernod Absinthe",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 35,
+   "abv": 68
+  },
+  {
+   "id": "b_angostura",
+   "n": "Angostura Bitters",
+   "cat": "Bitter",
+   "u": "ml",
+   "pack": 200,
+   "price": 11,
+   "abv": 44.7
+  },
+  {
+   "id": "b_peychauds",
+   "n": "Peychaud's Bitters",
+   "cat": "Bitter",
+   "u": "ml",
+   "pack": 148,
+   "price": 12,
+   "abv": 35
+  },
+  {
+   "id": "b_orangebit",
+   "n": "Portakal Bitter",
+   "cat": "Bitter",
+   "u": "ml",
+   "pack": 100,
+   "price": 10,
+   "abv": 28
+  },
+  {
+   "id": "s_soda",
+   "n": "Soda",
+   "cat": "Gazlı & Köpüklü",
+   "u": "ml",
+   "pack": 1000,
+   "price": 0.8,
+   "abv": 0
+  },
+  {
+   "id": "s_tonik",
+   "n": "Tonik",
+   "cat": "Gazlı & Köpüklü",
+   "u": "ml",
+   "pack": 1000,
+   "price": 3.5,
+   "abv": 0
+  },
+  {
+   "id": "s_gingerbeer",
+   "n": "Ginger Beer",
+   "cat": "Gazlı & Köpüklü",
+   "u": "ml",
+   "pack": 1000,
+   "price": 3,
+   "abv": 0
+  },
+  {
+   "id": "s_sekt",
+   "n": "Sekt / Prosecco (brut)",
+   "cat": "Gazlı & Köpüklü",
+   "u": "ml",
+   "pack": 750,
+   "price": 4,
+   "abv": 11
+  },
+  {
+   "id": "r_su",
+   "n": "Su",
+   "cat": "Mutfak",
+   "u": "ml",
+   "pack": 1000,
+   "price": 0,
+   "abv": 0
+  },
+  {
+   "id": "r_seker",
+   "n": "Toz şeker",
+   "cat": "Mutfak",
+   "u": "g",
+   "pack": 1000,
+   "price": 1.1
+  },
+  {
+   "id": "r_demerara",
+   "n": "Demerara şekeri",
+   "cat": "Mutfak",
+   "u": "g",
+   "pack": 1000,
+   "price": 2.8
+  },
+  {
+   "id": "r_bal",
+   "n": "Çiçek balı",
+   "cat": "Mutfak",
+   "u": "g",
+   "pack": 1000,
+   "price": 7
+  },
+  {
+   "id": "r_sitrik",
+   "n": "Sitrik asit",
+   "cat": "Mutfak",
+   "u": "g",
+   "pack": 1000,
+   "price": 10
+  },
+  {
+   "id": "r_malik",
+   "n": "Malik asit",
+   "cat": "Mutfak",
+   "u": "g",
+   "pack": 1000,
+   "price": 14
+  },
+  {
+   "id": "r_tuz",
+   "n": "Deniz tuzu",
+   "cat": "Mutfak",
+   "u": "g",
+   "pack": 1000,
+   "price": 1
+  },
+  {
+   "id": "r_agar",
+   "n": "Agar-agar",
+   "cat": "Mutfak",
+   "u": "g",
+   "pack": 100,
+   "price": 6
+  },
+  {
+   "id": "r_sut",
+   "n": "Tam yağlı süt",
+   "cat": "Mutfak",
+   "u": "ml",
+   "pack": 1000,
+   "price": 1.1
+  },
+  {
+   "id": "r_tereyag",
+   "n": "Tuzsuz tereyağı",
+   "cat": "Mutfak",
+   "u": "g",
+   "pack": 1000,
+   "price": 9
+  },
+  {
+   "id": "r_hindyag",
+   "n": "Sızma hindistan cevizi yağı",
+   "cat": "Mutfak",
+   "u": "g",
+   "pack": 1000,
+   "price": 12
+  },
+  {
+   "id": "r_zeytinyag",
+   "n": "Sızma zeytinyağı",
+   "cat": "Mutfak",
+   "u": "ml",
+   "pack": 1000,
+   "price": 9
+  },
+  {
+   "id": "r_hindkrema",
+   "n": "Hindistan cevizi kreması (tatlı)",
+   "cat": "Mutfak",
+   "u": "ml",
+   "pack": 425,
+   "price": 3.5
+  },
+  {
+   "id": "r_sirke",
+   "n": "Elma sirkesi",
+   "cat": "Mutfak",
+   "u": "ml",
+   "pack": 1000,
+   "price": 2
+  },
+  {
+   "id": "r_primasprit",
+   "n": "Primasprit %96",
+   "cat": "Mutfak",
+   "u": "ml",
+   "pack": 1000,
+   "price": 22,
+   "abv": 96
+  },
+  {
+   "id": "r_portcicek",
+   "n": "Portakal çiçeği suyu",
+   "cat": "Mutfak",
+   "u": "ml",
+   "pack": 250,
+   "price": 4
+  },
+  {
+   "id": "r_laym",
+   "n": "Laym",
+   "cat": "Meyve & Sebze",
+   "u": "adet",
+   "pack": 1,
+   "price": 0.3
+  },
+  {
+   "id": "r_limon",
+   "n": "Limon",
+   "cat": "Meyve & Sebze",
+   "u": "adet",
+   "pack": 1,
+   "price": 0.3
+  },
+  {
+   "id": "r_greyfurt",
+   "n": "Greyfurt",
+   "cat": "Meyve & Sebze",
+   "u": "adet",
+   "pack": 1,
+   "price": 0.8
+  },
+  {
+   "id": "r_portakal",
+   "n": "Portakal",
+   "cat": "Meyve & Sebze",
+   "u": "adet",
+   "pack": 1,
+   "price": 0.4
+  },
+  {
+   "id": "r_ananas",
+   "n": "Ananas (≈1,2 kg)",
+   "cat": "Meyve & Sebze",
+   "u": "adet",
+   "pack": 1,
+   "price": 2.5
+  },
+  {
+   "id": "r_salatalik",
+   "n": "Salatalık",
+   "cat": "Meyve & Sebze",
+   "u": "adet",
+   "pack": 1,
+   "price": 0.6
+  },
+  {
+   "id": "r_jalapeno",
+   "n": "Jalapeño",
+   "cat": "Meyve & Sebze",
+   "u": "adet",
+   "pack": 1,
+   "price": 0.3
+  },
+  {
+   "id": "r_cilek",
+   "n": "Çilek",
+   "cat": "Meyve & Sebze",
+   "u": "g",
+   "pack": 1000,
+   "price": 6
+  },
+  {
+   "id": "r_zencefil",
+   "n": "Taze zencefil",
+   "cat": "Meyve & Sebze",
+   "u": "g",
+   "pack": 1000,
+   "price": 4
+  },
+  {
+   "id": "r_incir",
+   "n": "Kuru incir",
+   "cat": "Meyve & Sebze",
+   "u": "g",
+   "pack": 1000,
+   "price": 9
+  },
+  {
+   "id": "r_fistik",
+   "n": "Antep fıstığı (iç, tuzsuz)",
+   "cat": "Meyve & Sebze",
+   "u": "g",
+   "pack": 1000,
+   "price": 32
+  },
+  {
+   "id": "r_feslegen",
+   "n": "Taze fesleğen",
+   "cat": "Ot & Baharat",
+   "u": "g",
+   "pack": 40,
+   "price": 1.8
+  },
+  {
+   "id": "r_nane",
+   "n": "Taze nane",
+   "cat": "Ot & Baharat",
+   "u": "g",
+   "pack": 40,
+   "price": 1.5
+  },
+  {
+   "id": "r_kekik",
+   "n": "Taze kekik",
+   "cat": "Ot & Baharat",
+   "u": "g",
+   "pack": 25,
+   "price": 1.8
+  },
+  {
+   "id": "r_kurukekik",
+   "n": "Kuru kekik / zahter",
+   "cat": "Ot & Baharat",
+   "u": "g",
+   "pack": 1000,
+   "price": 20
+  },
+  {
+   "id": "r_biberiye",
+   "n": "Taze biberiye",
+   "cat": "Ot & Baharat",
+   "u": "g",
+   "pack": 25,
+   "price": 1.8
+  },
+  {
+   "id": "r_adacayi",
+   "n": "Taze adaçayı",
+   "cat": "Ot & Baharat",
+   "u": "g",
+   "pack": 20,
+   "price": 1.8
+  },
+  {
+   "id": "r_pandan",
+   "n": "Pandan yaprağı",
+   "cat": "Ot & Baharat",
+   "u": "g",
+   "pack": 100,
+   "price": 8
+  },
+  {
+   "id": "r_kakule",
+   "n": "Yeşil kakule",
+   "cat": "Ot & Baharat",
+   "u": "g",
+   "pack": 1000,
+   "price": 45
+  },
+  {
+   "id": "r_kisnis",
+   "n": "Kişniş tohumu",
+   "cat": "Ot & Baharat",
+   "u": "g",
+   "pack": 1000,
+   "price": 8
+  },
+  {
+   "id": "r_pembebiber",
+   "n": "Pembe biber",
+   "cat": "Ot & Baharat",
+   "u": "g",
+   "pack": 1000,
+   "price": 45
+  },
+  {
+   "id": "r_karabiber",
+   "n": "Karabiber (tane)",
+   "cat": "Ot & Baharat",
+   "u": "g",
+   "pack": 1000,
+   "price": 20
+  },
+  {
+   "id": "r_tarcin",
+   "n": "Kasya tarçın",
+   "cat": "Ot & Baharat",
+   "u": "g",
+   "pack": 1000,
+   "price": 15
+  },
+  {
+   "id": "r_karanfil",
+   "n": "Karanfil",
+   "cat": "Ot & Baharat",
+   "u": "g",
+   "pack": 1000,
+   "price": 25
+  },
+  {
+   "id": "r_yenibahar",
+   "n": "Yenibahar",
+   "cat": "Ot & Baharat",
+   "u": "g",
+   "pack": 1000,
+   "price": 20
+  },
+  {
+   "id": "r_yildiz",
+   "n": "Yıldız anason",
+   "cat": "Ot & Baharat",
+   "u": "g",
+   "pack": 1000,
+   "price": 25
+  },
+  {
+   "id": "r_gentiyan",
+   "n": "Gentiyan kökü",
+   "cat": "Ot & Baharat",
+   "u": "g",
+   "pack": 1000,
+   "price": 40
+  },
+  {
+   "id": "r_kuruportakal",
+   "n": "Kuru portakal kabuğu",
+   "cat": "Ot & Baharat",
+   "u": "g",
+   "pack": 1000,
+   "price": 20
+  },
+  {
+   "id": "r_vanilya",
+   "n": "Vanilya çubuğu",
+   "cat": "Ot & Baharat",
+   "u": "adet",
+   "pack": 1,
+   "price": 3
+  },
+  {
+   "id": "r_hibiskus",
+   "n": "Kuru hibiskus",
+   "cat": "Ot & Baharat",
+   "u": "g",
+   "pack": 1000,
+   "price": 25
+  },
+  {
+   "id": "r_earlgrey",
+   "n": "Earl Grey çayı",
+   "cat": "Çay & Kahve",
+   "u": "g",
+   "pack": 1000,
+   "price": 30
+  },
+  {
+   "id": "r_sencha",
+   "n": "Sencha yeşil çay",
+   "cat": "Çay & Kahve",
+   "u": "g",
+   "pack": 1000,
+   "price": 45
+  },
+  {
+   "id": "r_lapsang",
+   "n": "Lapsang Souchong",
+   "cat": "Çay & Kahve",
+   "u": "g",
+   "pack": 1000,
+   "price": 40
+  },
+  {
+   "id": "r_kahve",
+   "n": "Kahve çekirdeği",
+   "cat": "Çay & Kahve",
+   "u": "g",
+   "pack": 1000,
+   "price": 20
+  },
+  {
+   "id": "r_kakao",
+   "n": "Kakao çekirdeği (nibs)",
+   "cat": "Çay & Kahve",
+   "u": "g",
+   "pack": 1000,
+   "price": 25
+  },
+  {
+   "id": "b_lilletrose",
+   "n": "Lillet Rosé",
+   "cat": "Vermut & Şarap",
+   "u": "ml",
+   "pack": 750,
+   "price": 11,
+   "abv": 17
+  },
+  {
+   "id": "b_lillet0",
+   "n": "Lillet Blanc 0%",
+   "cat": "Alkolsüz Aperitif",
+   "u": "ml",
+   "pack": 750,
+   "price": 8.5,
+   "abv": 0
+  },
+  {
+   "id": "b_sarti",
+   "n": "Sarti Rosa",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 11.5,
+   "abv": 14
+  },
+  {
+   "id": "b_limoncello",
+   "n": "Limoncello (Luxardo vb.)",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 9.5,
+   "abv": 27
+  },
+  {
+   "id": "b_fiero",
+   "n": "Martini Fiero",
+   "cat": "Vermut & Şarap",
+   "u": "ml",
+   "pack": 750,
+   "price": 7.5,
+   "abv": 14.4
+  },
+  {
+   "id": "b_select",
+   "n": "Select Aperitivo",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 1000,
+   "price": 13,
+   "abv": 17.5
+  },
+  {
+   "id": "b_bitterbianco",
+   "n": "Luxardo Bitter Bianco",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 16,
+   "abv": 30
+  },
+  {
+   "id": "b_cynar",
+   "n": "Cynar",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 1000,
+   "price": 12.5,
+   "abv": 16.5
+  },
+  {
+   "id": "b_mastiha",
+   "n": "Skinos Mastiha",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 22,
+   "abv": 30
+  },
+  {
+   "id": "b_kotapandan",
+   "n": "Kota Pandan Liqueur",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 29,
+   "abv": 18
+  },
+  {
+   "id": "b_choyayuzu",
+   "n": "Choya Yuzu",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 750,
+   "price": 13,
+   "abv": 14.7
+  },
+  {
+   "id": "b_jager",
+   "n": "Jägermeister",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 10.5,
+   "abv": 35
+  },
+  {
+   "id": "b_berlinerluft",
+   "n": "Berliner Luft (Pfeffi)",
+   "cat": "Likör & Aperitif",
+   "u": "ml",
+   "pack": 700,
+   "price": 6,
+   "abv": 18
+  },
+  {
+   "id": "r_domates",
+   "n": "Domates suyu",
+   "cat": "Mutfak",
+   "u": "ml",
+   "pack": 1000,
+   "price": 1.5
+  },
+  {
+   "id": "r_tabasco",
+   "n": "Tabasco / acı sos",
+   "cat": "Mutfak",
+   "u": "ml",
+   "pack": 60,
+   "price": 3
+  }
+ ]
+}

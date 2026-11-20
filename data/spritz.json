@@ -1,0 +1,746 @@
+{
+ "note": "Servis hedefi ≤ 20 sn: aperitif + ev hazırlığı önceden premix şişede (buzdolabı), servis anında buz + premix + köpüklü + soda. Fiyatlar KDV dahil öneridir; Leipzig’de Aperol Spritz ortalaması Nisan 2026’da 7,35 € idi.",
+ "spritz": [
+  {
+   "id": "sp01",
+   "n": "House Aperol Spritz",
+   "de": "Der Klassiker – perfekt balanciert, eiskalt.",
+   "base": "Spritz",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 8.5,
+   "ings": [
+    [
+     "b_aperol",
+     50
+    ],
+    [
+     "s_sekt",
+     80,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Portakal dilimi",
+   "br": "Limonen + nootkaton (acı portakal)"
+  },
+  {
+   "id": "sp02",
+   "n": "Sarti Spritz",
+   "de": "Blutorange, Mango und Maracuja – fruchtig und leicht.",
+   "base": "Spritz",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 8.9,
+   "ings": [
+    [
+     "b_sarti",
+     45
+    ],
+    [
+     "s_sekt",
+     80,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Laym dilimi",
+   "br": "Esterler (mango-maracuja) ↔ limonen"
+  },
+  {
+   "id": "sp03",
+   "n": "Sarti Hibiscus Spritz",
+   "de": "Sarti Rosa mit Hibiskus und rosa Pfeffer.",
+   "base": "Spritz",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 8.9,
+   "ings": [
+    [
+     "b_sarti",
+     40
+    ],
+    [
+     "p_hibiskus",
+     10
+    ],
+    [
+     "s_sekt",
+     80,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Laym dilimi, pembe biber",
+   "br": "Mirsen (pembe biber) ↔ esterler"
+  },
+  {
+   "id": "sp04",
+   "n": "Sarti Tropical Spritz",
+   "de": "Sarti Rosa mit klarer Ananas – Sommer im Glas.",
+   "base": "Spritz",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 8.9,
+   "ings": [
+    [
+     "b_sarti",
+     40
+    ],
+    [
+     "p_ananas",
+     10
+    ],
+    [
+     "s_sekt",
+     80,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Ananas yaprağı",
+   "br": "Esterler + furaneol ↔ limonen"
+  },
+  {
+   "id": "sp05",
+   "n": "Lillet Berry Hibiscus",
+   "de": "Lillet Rosé, Hibiskus und Limette – die Wild-Berry-Idee, hausgemacht.",
+   "base": "Spritz",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 8.9,
+   "ings": [
+    [
+     "b_lilletrose",
+     50
+    ],
+    [
+     "p_hibiskus",
+     10
+    ],
+    [
+     "p_laymasit",
+     5
+    ],
+    [
+     "s_soda",
+     100,
+     "t"
+    ]
+   ],
+   "g": "Ahududu veya laym dilimi",
+   "br": "Geraniol + linalool ↔ mirsen (pembe biber)",
+   "note": "Almanya’da çok satan ‘Lillet Wild Berry’ fikrinin kendi şurubumuzla versiyonu; hazır Wild Berry tonik almaya gerek yok."
+  },
+  {
+   "id": "sp06",
+   "n": "Lillet Pink Pepper Tonic",
+   "de": "Lillet Blanc, Tonic, Grapefruit und rosa Pfeffer.",
+   "base": "Spritz",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 8.9,
+   "ings": [
+    [
+     "b_lillet",
+     45
+    ],
+    [
+     "p_greyfurt",
+     5
+    ],
+    [
+     "s_tonik",
+     100,
+     "t"
+    ]
+   ],
+   "g": "Greyfurt dilimi, pembe biber",
+   "br": "Limonen ↔ nootkaton + kinin"
+  },
+  {
+   "id": "sp07",
+   "n": "Lillet Pandan Spritz",
+   "de": "Lillet Blanc mit Pandan – vanillig, nussig, frisch.",
+   "base": "Spritz",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 8.9,
+   "ings": [
+    [
+     "b_lillet",
+     40
+    ],
+    [
+     "p_pandan",
+     10
+    ],
+    [
+     "s_sekt",
+     80,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Pandan yaprağı",
+   "br": "2-AP ↔ linalool + laktonlar (Lillet)",
+   "note": "‘Lillet Coco’ adında resmi bir ürün bulunamadı; bu kart pandan-kremsi bir alternatif olarak tasarlandı."
+  },
+  {
+   "id": "sp08",
+   "n": "Cucumber Mint Hugo",
+   "de": "Holunderblüte, Gurke und Minze – der Hugo, frischer.",
+   "base": "Spritz",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 8.9,
+   "ings": [
+    [
+     "b_stgermain",
+     15
+    ],
+    [
+     "p_salatalik",
+     15
+    ],
+    [
+     "s_sekt",
+     100,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Nane tepesi, salatalık şeridi",
+   "br": "Linalool + geraniol ↔ nonadienal ↔ karvon"
+  },
+  {
+   "id": "sp09",
+   "n": "Limoncello Basil Spritz",
+   "de": "Limoncello, Basilikum und Sekt – Amalfi trifft Garten.",
+   "base": "Spritz",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 8.9,
+   "ings": [
+    [
+     "b_limoncello",
+     40
+    ],
+    [
+     "p_feslegen",
+     5
+    ],
+    [
+     "s_sekt",
+     80,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Fesleğen yaprağı, limon dilimi",
+   "br": "Limonen + sitral ↔ linalool + osimen"
+  },
+  {
+   "id": "sp10",
+   "n": "Bergamot Bianco Spritz",
+   "de": "Lillet, Dry Vermouth und Bergamotte, mit Basilikum.",
+   "base": "Spritz",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 8.9,
+   "ings": [
+    [
+     "p_bianco",
+     40
+    ],
+    [
+     "p_feslegen",
+     5
+    ],
+    [
+     "s_sekt",
+     80,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Fesleğen yaprağı",
+   "br": "Limonen + linalool ↔ osimen"
+  },
+  {
+   "id": "sp11",
+   "n": "Campari Grapefruit Spritz",
+   "de": "Campari, Grapefruit-Rosmarin und Sekt – herb und klar.",
+   "base": "Spritz",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 8.9,
+   "ings": [
+    [
+     "b_campari",
+     40
+    ],
+    [
+     "p_greyfurt",
+     5
+    ],
+    [
+     "s_sekt",
+     80,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Greyfurt dilimi, biberiye",
+   "br": "Limonen ↔ nootkaton ↔ pinen"
+  },
+  {
+   "id": "sp12",
+   "n": "Venetian Select Spritz",
+   "de": "Der Venezianer: Select, Sekt und eine grüne Olive.",
+   "base": "Spritz",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 8.9,
+   "ings": [
+    [
+     "b_select",
+     40
+    ],
+    [
+     "s_sekt",
+     80,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Yeşil zeytin (Castelvetrano)",
+   "br": "Ravent + ardıç ↔ zeytin (tuzlu kontrast)"
+  },
+  {
+   "id": "sp13",
+   "n": "Bianco Bitter Spritz",
+   "de": "Weißer Bitter, Lillet und Grapefruit – trocken, elegant.",
+   "base": "Spritz",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 9.9,
+   "ings": [
+    [
+     "b_bitterbianco",
+     30
+    ],
+    [
+     "b_lillet",
+     10
+    ],
+    [
+     "p_greyfurt",
+     5
+    ],
+    [
+     "s_sekt",
+     80,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Limon kabuğu, yeşil zeytin",
+   "br": "Gentiyan + pelin ↔ nootkaton"
+  },
+  {
+   "id": "sp14",
+   "n": "Cynar Artichoke Spritz",
+   "de": "Cynar, Grapefruit und Sekt – bitter-süß, sehr italienisch.",
+   "base": "Spritz",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 8.5,
+   "ings": [
+    [
+     "b_cynar",
+     50
+    ],
+    [
+     "p_greyfurt",
+     5
+    ],
+    [
+     "s_sekt",
+     80,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Portakal dilimi",
+   "br": "Furaneol (karamel) ↔ nootkaton"
+  },
+  {
+   "id": "sp15",
+   "n": "Mastiha Cucumber Spritz",
+   "de": "Griechischer Mastix, Gurke und Minze – Pinienfrische.",
+   "base": "Spritz",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 9.9,
+   "ings": [
+    [
+     "b_mastiha",
+     25
+    ],
+    [
+     "p_salatalik",
+     15
+    ],
+    [
+     "s_sekt",
+     80,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Salatalık şeridi, nane",
+   "br": "α-Pinen (mastik) ↔ nonadienal + karvon"
+  },
+  {
+   "id": "sp16",
+   "n": "Yuzu Sencha Spritz",
+   "de": "Yuzu-Likör, grüner Tee und Sekt – japanisch frisch.",
+   "base": "Spritz",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 9.9,
+   "ings": [
+    [
+     "b_choyayuzu",
+     40
+    ],
+    [
+     "p_sencha",
+     5
+    ],
+    [
+     "s_sekt",
+     80,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Limon kabuğu",
+   "br": "Limonen + nootkaton (yuzu) ↔ linalool (sencha)"
+  },
+  {
+   "id": "sp17",
+   "n": "Strawberry Rosé Spritz",
+   "de": "Lillet Rosé, Erdbeer-Pfeffer-Shrub und Sekt.",
+   "base": "Spritz",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 8.9,
+   "ings": [
+    [
+     "b_lilletrose",
+     40
+    ],
+    [
+     "p_cilekshrub",
+     10
+    ],
+    [
+     "s_sekt",
+     80,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Çilek dilimi",
+   "br": "Furaneol ↔ geraniol ↔ karyofilen"
+  },
+  {
+   "id": "sp18",
+   "n": "Fiero Blood Orange Tonic",
+   "de": "Martini Fiero und Tonic – Blutorange, bitter-frisch.",
+   "base": "Spritz",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 8.5,
+   "ings": [
+    [
+     "b_fiero",
+     50
+    ],
+    [
+     "p_greyfurt",
+     5
+    ],
+    [
+     "s_tonik",
+     100,
+     "t"
+    ]
+   ],
+   "g": "Kan portakalı / portakal dilimi",
+   "br": "Limonen ↔ kinin"
+  },
+  {
+   "id": "sp19",
+   "n": "Earl Grey Royal Spritz",
+   "de": "Klarer Earl-Grey-Milk-Punch mit Sekt.",
+   "base": "Spritz",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 9.5,
+   "ings": [
+    [
+     "p_m_earlgrey",
+     40
+    ],
+    [
+     "s_sekt",
+     80,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Limon kabuğu",
+   "br": "Linalool (bergamot) ↔ esterler"
+  },
+  {
+   "id": "sp20",
+   "n": "Ginger Aperol Winter Spritz",
+   "de": "Aperol mit Ingwer – wärmer, würziger.",
+   "base": "Spritz",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 8.5,
+   "ings": [
+    [
+     "b_aperol",
+     45
+    ],
+    [
+     "p_zencefil",
+     5
+    ],
+    [
+     "s_sekt",
+     80,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Portakal dilimi",
+   "br": "Sitral (zencefil) ↔ limonen"
+  },
+  {
+   "id": "sp21",
+   "n": "Rosso Cinnamon Winter Spritz",
+   "de": "Roter Wermut, Zimt und Sekt – Glühwein-Gefühl, kalt.",
+   "base": "Spritz",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 8.9,
+   "ings": [
+    [
+     "p_rosso",
+     35
+    ],
+    [
+     "p_tarcin",
+     5
+    ],
+    [
+     "s_sekt",
+     80,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Portakal dilimi, tarçın çubuğu",
+   "br": "Sinamaldehit ↔ vanilin + furaneol"
+  },
+  {
+   "id": "sp22",
+   "n": "Pandan Kota Spritz (Premium)",
+   "de": "Echter Pandan-Likör, Lillet und Sekt – selten in Chemnitz.",
+   "base": "Spritz",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 10.9,
+   "ings": [
+    [
+     "b_kotapandan",
+     15
+    ],
+    [
+     "b_lillet",
+     20
+    ],
+    [
+     "p_pandan",
+     5
+    ],
+    [
+     "s_sekt",
+     80,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Pandan yaprağı",
+   "br": "2-AP ↔ linalool"
+  },
+  {
+   "id": "sp23",
+   "n": "Lillet 0% Hibiscus Spritz",
+   "de": "Alkoholfrei: Lillet Blanc 0%, Hibiskus und Soda.",
+   "base": "Zero",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 7.5,
+   "ings": [
+    [
+     "b_lillet0",
+     50
+    ],
+    [
+     "p_hibiskus",
+     10
+    ],
+    [
+     "s_soda",
+     100,
+     "t"
+    ]
+   ],
+   "g": "Laym dilimi",
+   "br": "Mirsen ↔ narenciye"
+  },
+  {
+   "id": "sp24",
+   "n": "Aperitivo 0% Grapefruit Tonic",
+   "de": "Alkoholfrei: Grapefruit-Rosmarin, Hibiskus und Tonic.",
+   "base": "Zero",
+   "fmt": "top",
+   "glass": "Ballon",
+   "ice": "Buz dolu",
+   "sell": 7,
+   "ings": [
+    [
+     "p_greyfurt",
+     20
+    ],
+    [
+     "p_hibiskus",
+     10
+    ],
+    [
+     "s_tonik",
+     120,
+     "t"
+    ]
+   ],
+   "g": "Greyfurt dilimi, biberiye",
+   "br": "Nootkaton ↔ pinen ↔ kinin"
+  }
+ ]
+}

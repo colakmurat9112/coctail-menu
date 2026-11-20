@@ -1,0 +1,723 @@
+{
+ "note": "Alış fiyatları NET (KDV hariç) tahmini toptan fiyatlardır (Metro/Delicando vb.); satış fiyatları KDV (%19) dahil öneridir. Marj = (net satış − maliyet) ÷ net satış. Kendi alış fiyatını kartta değiştirebilirsin.",
+ "cats": [
+  "Premium Tekila & Mezcal",
+  "Premium Rom",
+  "Premium Viski",
+  "Premium Cin (G&T)",
+  "Köpüklü & Şişe Servisi",
+  "Niş & Fark Yaratanlar"
+ ],
+ "bottles": [
+  {
+   "id": "bb01",
+   "n": "Don Julio Blanco",
+   "cat": "Premium Tekila & Mezcal",
+   "size": 700,
+   "buy": 33,
+   "abv": 38,
+   "pour": 40,
+   "sell": 9.5,
+   "prof": "Taze agave, narenciye, belirgin karabiber bitişi.",
+   "why": "Masada tanınan isim; ‘sipping tequila’ siparişini yükseltir.",
+   "serve": "4 cl, oda sıcaklığı, sade; yanına sangrita (domates-portakal) shot’ı +1,50 € ile önerilebilir.",
+   "uses": [
+    "c050",
+    "c071",
+    "c053"
+   ]
+  },
+  {
+   "id": "bb02",
+   "n": "Don Julio Reposado",
+   "cat": "Premium Tekila & Mezcal",
+   "size": 700,
+   "buy": 38,
+   "abv": 38,
+   "pour": 40,
+   "sell": 11,
+   "prof": "Hafif meşe, karamel, vanilya, pişmiş agave.",
+   "why": "Tekila içmeyen viski müşterisine köprü.",
+   "serve": "4 cl, tumbler, tek büyük küp opsiyonel.",
+   "uses": [
+    "c034",
+    "c020"
+   ]
+  },
+  {
+   "id": "bb03",
+   "n": "Patrón Silver",
+   "cat": "Premium Tekila & Mezcal",
+   "size": 700,
+   "buy": 34,
+   "abv": 40,
+   "pour": 40,
+   "sell": 9.5,
+   "prof": "Temiz, tatlımsı agave, narenciye.",
+   "why": "Yüksek marka bilinirliği, gruplar için shot olarak da premium satılır.",
+   "serve": "4 cl veya 2 cl ‘premium shot’ (€5,50).",
+   "uses": [
+    "c051"
+   ]
+  },
+  {
+   "id": "bb04",
+   "n": "Casamigos Blanco",
+   "cat": "Premium Tekila & Mezcal",
+   "size": 700,
+   "buy": 34,
+   "abv": 40,
+   "pour": 40,
+   "sell": 10,
+   "prof": "Yumuşak, vanilyamsı, düşük yanma.",
+   "why": "Sosyal medyada bilinen ‘lifestyle’ tekila; genç kitlede yüksek fiyat kabulü.",
+   "serve": "4 cl buz üzerinde, laym dilimi.",
+   "uses": [
+    "c052"
+   ]
+  },
+  {
+   "id": "bb05",
+   "n": "Fortaleza Blanco",
+   "cat": "Premium Tekila & Mezcal",
+   "size": 700,
+   "buy": 50,
+   "abv": 40,
+   "pour": 40,
+   "sell": 12.5,
+   "prof": "Taş fırın agave, zeytin salamurası, toprak.",
+   "why": "Bar insanlarının bildiği kült şişe; ‘kaliteli bar’ sinyali. Tedarik zaman zaman kısıtlı.",
+   "serve": "4 cl, sade, kadeh.",
+   "uses": []
+  },
+  {
+   "id": "bb06",
+   "n": "Del Maguey Vida",
+   "cat": "Premium Tekila & Mezcal",
+   "item": "b_vida",
+   "size": 700,
+   "abv": 42,
+   "pour": 40,
+   "sell": 9.5,
+   "prof": "İs, pişmiş agave, tropik meyve.",
+   "why": "Mezcal girişi için ideal fiyat-kalite; kokteyllerde zaten var.",
+   "serve": "4 cl, yanında portakal dilimi + tuz-biber.",
+   "uses": [
+    "c005",
+    "c055",
+    "c080"
+   ]
+  },
+  {
+   "id": "bb07",
+   "n": "Montelobos Espadín",
+   "cat": "Premium Tekila & Mezcal",
+   "size": 700,
+   "buy": 32,
+   "abv": 43.2,
+   "pour": 40,
+   "sell": 9.5,
+   "prof": "Organik espadín, yeşil biber, hafif is.",
+   "why": "Vida’ya alternatif; daha az isli, sipping için daha kolay.",
+   "serve": "4 cl, kadeh.",
+   "uses": []
+  },
+  {
+   "id": "bb08",
+   "n": "Diplomático Reserva Exclusiva",
+   "cat": "Premium Rom",
+   "size": 700,
+   "buy": 26,
+   "abv": 40,
+   "pour": 40,
+   "sell": 8.5,
+   "prof": "Toffee, kakao, vanilya; tatlı ve yumuşak.",
+   "why": "Almanya’da en çok tanınan premium rom; çok iyi döner.",
+   "serve": "4 cl, tek küp, portakal kabuğu.",
+   "uses": [
+    "c078"
+   ]
+  },
+  {
+   "id": "bb09",
+   "n": "Ron Zacapa 23",
+   "cat": "Premium Rom",
+   "size": 700,
+   "buy": 40,
+   "abv": 40,
+   "pour": 40,
+   "sell": 11,
+   "prof": "Bal, kuru meyve, meşe; solera blend.",
+   "why": "Prestij şişesi; doğum günü/özel gün siparişi.",
+   "serve": "4 cl, tek küp, bitter çikolata ile eşle.",
+   "uses": []
+  },
+  {
+   "id": "bb10",
+   "n": "Don Papa 10 / Baroko",
+   "cat": "Premium Rom",
+   "size": 700,
+   "buy": 28,
+   "abv": 40,
+   "pour": 40,
+   "sell": 9,
+   "prof": "Vanilya, bal, narenciye; tatlımsı.",
+   "why": "Etiketi ve hikâyesi çok satar; genç kitle.",
+   "serve": "4 cl, buz, portakal dilimi.",
+   "uses": []
+  },
+  {
+   "id": "bb11",
+   "n": "Appleton Estate 12 Rare Casks",
+   "cat": "Premium Rom",
+   "size": 700,
+   "buy": 32,
+   "abv": 43,
+   "pour": 40,
+   "sell": 9.5,
+   "prof": "Jamaika funk’ı, portakal, kakao, meşe.",
+   "why": "Rom meraklısına ciddi seçim; Galapagos konseptine uygun.",
+   "serve": "4 cl, sade.",
+   "uses": [
+    "c003",
+    "c064"
+   ]
+  },
+  {
+   "id": "bb12",
+   "n": "Planteray XO 20th Anniversary",
+   "cat": "Premium Rom",
+   "size": 700,
+   "buy": 35,
+   "abv": 40,
+   "pour": 40,
+   "sell": 10,
+   "prof": "Hindistan cevizi, vanilya, tropik meyve.",
+   "why": "Kokteyllerdeki Planteray ailesiyle hikâye bütünlüğü.",
+   "serve": "4 cl, tek küp.",
+   "uses": []
+  },
+  {
+   "id": "bb13",
+   "n": "El Dorado 12",
+   "cat": "Premium Rom",
+   "size": 700,
+   "buy": 32,
+   "abv": 40,
+   "pour": 40,
+   "sell": 9.5,
+   "prof": "Demerara, yanık şeker, kahve.",
+   "why": "Kahve-rom eşleşmeleriyle digestif satışı.",
+   "serve": "4 cl, yanına espresso (+€2,50) önerisi.",
+   "uses": [
+    "c006",
+    "c019"
+   ]
+  },
+  {
+   "id": "bb14",
+   "n": "Woodford Reserve",
+   "cat": "Premium Viski",
+   "size": 700,
+   "buy": 28,
+   "abv": 43.2,
+   "pour": 40,
+   "sell": 9,
+   "prof": "Vanilya, karamel, baharat, meşe.",
+   "why": "Premium bourbon girişi; Old Fashioned yükseltmesi (+€2).",
+   "serve": "4 cl, tek küp.",
+   "uses": [
+    "c057"
+   ]
+  },
+  {
+   "id": "bb15",
+   "n": "Lagavulin 16",
+   "cat": "Premium Viski",
+   "size": 700,
+   "buy": 52,
+   "abv": 43,
+   "pour": 40,
+   "sell": 13.5,
+   "prof": "Yoğun is, iyot, sherry tatlılığı.",
+   "why": "İsli viski sevenler için ‘ikon’ şişe.",
+   "serve": "4 cl, birkaç damla su ile.",
+   "uses": []
+  },
+  {
+   "id": "bb16",
+   "n": "Talisker 10",
+   "cat": "Premium Viski",
+   "size": 700,
+   "buy": 33,
+   "abv": 45.8,
+   "pour": 40,
+   "sell": 9.5,
+   "prof": "Deniz tuzu, karabiber, hafif is.",
+   "why": "Islay’den daha ulaşılabilir is; Penicillin float için alternatif.",
+   "serve": "4 cl, sade.",
+   "uses": [
+    "c058"
+   ]
+  },
+  {
+   "id": "bb17",
+   "n": "Redbreast 12",
+   "cat": "Premium Viski",
+   "size": 700,
+   "buy": 42,
+   "abv": 40,
+   "pour": 40,
+   "sell": 11.5,
+   "prof": "Single pot still; kuru meyve, baharat, kremsi.",
+   "why": "İrlanda viskisini ‘premium’ konumlandırır.",
+   "serve": "4 cl, sade.",
+   "uses": []
+  },
+  {
+   "id": "bb18",
+   "n": "Nikka From the Barrel (0,5 L)",
+   "cat": "Premium Viski",
+   "size": 500,
+   "buy": 33,
+   "abv": 51.4,
+   "pour": 40,
+   "sell": 11,
+   "prof": "Yoğun, baharatlı, vanilya; yüksek ABV.",
+   "why": "Japon viskisi merakı; Highball yükseltmesi.",
+   "serve": "4 cl veya Japanese Highball (+soda, €12).",
+   "uses": []
+  },
+  {
+   "id": "bb19",
+   "n": "Suntory Hibiki Harmony",
+   "cat": "Premium Viski",
+   "size": 700,
+   "buy": 60,
+   "abv": 43,
+   "pour": 40,
+   "sell": 15.5,
+   "prof": "Bal, portakal, sandal ağacı, zarif.",
+   "why": "Prestij ve görsel; şişe arka barda vitrin.",
+   "serve": "4 cl, büyük berrak küp.",
+   "uses": []
+  },
+  {
+   "id": "bb20",
+   "n": "Monkey Shoulder",
+   "cat": "Premium Viski",
+   "item": "b_scotch",
+   "size": 700,
+   "abv": 40,
+   "pour": 40,
+   "sell": 8,
+   "prof": "Vanilya, bal, malt; yumuşak.",
+   "why": "Fiyat-performans; ‘ev’ blended malt.",
+   "serve": "4 cl, tek küp.",
+   "uses": [
+    "c058"
+   ]
+  },
+  {
+   "id": "bb21",
+   "n": "Monkey 47 G&T",
+   "cat": "Premium Cin (G&T)",
+   "size": 500,
+   "buy": 30,
+   "abv": 47,
+   "pour": 40,
+   "sell": 13.5,
+   "mixer": 0.8,
+   "mixerN": "Premium tonik 200 ml",
+   "prof": "Kara Orman, ladin, narenciye, biber.",
+   "why": "Almanya’nın ikon cini; G&T’de en yüksek fiyat kabulü.",
+   "serve": "4 cl + 200 ml tonik, greyfurt kabuğu, Ballon.",
+   "uses": [
+    "c056"
+   ]
+  },
+  {
+   "id": "bb22",
+   "n": "Hendrick's G&T",
+   "cat": "Premium Cin (G&T)",
+   "item": "b_hendricks",
+   "size": 700,
+   "abv": 41.4,
+   "pour": 40,
+   "sell": 11.5,
+   "mixer": 0.8,
+   "mixerN": "Premium tonik 200 ml",
+   "prof": "Gül, salatalık, yumuşak ardıç.",
+   "why": "En bilinen premium G&T; kadın misafirlerde güçlü.",
+   "serve": "4 cl + tonik, salatalık şeridi.",
+   "uses": [
+    "c008",
+    "c039"
+   ]
+  },
+  {
+   "id": "bb23",
+   "n": "Roku G&T",
+   "cat": "Premium Cin (G&T)",
+   "item": "b_roku",
+   "size": 700,
+   "abv": 43,
+   "pour": 40,
+   "sell": 11,
+   "mixer": 0.8,
+   "mixerN": "Premium tonik 200 ml",
+   "prof": "Yuzu, sakura, sencha, sansho.",
+   "why": "Japon temalı, zencefil şeridiyle görsel.",
+   "serve": "4 cl + tonik, 6 ince zencefil şeridi.",
+   "uses": [
+    "c027",
+    "c038"
+   ]
+  },
+  {
+   "id": "bb24",
+   "n": "Gin Mare G&T",
+   "cat": "Premium Cin (G&T)",
+   "item": "b_ginmare",
+   "size": 700,
+   "abv": 42.7,
+   "pour": 40,
+   "sell": 12,
+   "mixer": 0.8,
+   "mixerN": "Premium tonik 200 ml",
+   "prof": "Fesleğen, biberiye, kekik, zeytin.",
+   "why": "Akdeniz hikâyesi; snack’lerle (zeytin) çapraz satış.",
+   "serve": "4 cl + Akdeniz toniği, biberiye + zeytin.",
+   "uses": [
+    "c029"
+   ]
+  },
+  {
+   "id": "bb25",
+   "n": "The Botanist G&T",
+   "cat": "Premium Cin (G&T)",
+   "size": 700,
+   "buy": 30,
+   "abv": 46,
+   "pour": 40,
+   "sell": 11.5,
+   "mixer": 0.8,
+   "mixerN": "Premium tonik 200 ml",
+   "prof": "Islay otları, nane, bal, narenciye.",
+   "why": "Yabani ot hikâyesi; viski kitlesine köprü.",
+   "serve": "4 cl + tonik, nane tepesi.",
+   "uses": []
+  },
+  {
+   "id": "bb26",
+   "n": "Piccini Prosecco DOC Extra Dry",
+   "cat": "Köpüklü & Şişe Servisi",
+   "size": 750,
+   "buy": 6.5,
+   "abv": 11,
+   "sparkling": true,
+   "glass": 100,
+   "sell": 6.5,
+   "sellBottle": 34,
+   "prof": "Elma, limon, akasya çiçeği; meyvemsi.",
+   "why": "Tanınır, ucuz alış – kadehte çok yüksek marj; ‘Venetian Dress’ şişesi masada görsel.",
+   "serve": "0,1 L flüt veya 0,75 L kova + 2 kadeh.",
+   "uses": [
+    "sp01"
+   ]
+  },
+  {
+   "id": "bb27",
+   "n": "Mionetto Prosecco Brut",
+   "cat": "Köpüklü & Şişe Servisi",
+   "size": 750,
+   "buy": 7,
+   "abv": 11,
+   "sparkling": true,
+   "glass": 100,
+   "sell": 6.9,
+   "sellBottle": 36,
+   "prof": "Kuru, yeşil elma, ferah.",
+   "why": "Gastronomide bilinen marka; Brut olduğu için spritz’lerde daha dengeli.",
+   "serve": "0,1 L flüt.",
+   "uses": []
+  },
+  {
+   "id": "bb28",
+   "n": "Rotkäppchen Sekt Trocken",
+   "cat": "Köpüklü & Şişe Servisi",
+   "size": 750,
+   "buy": 3.6,
+   "abv": 11,
+   "sparkling": true,
+   "glass": 100,
+   "sell": 4.9,
+   "sellBottle": 24,
+   "prof": "Hafif, meyvemsi, tanıdık.",
+   "why": "Saksonya-Anhalt (Freyburg) yerel ikon; Doğu Almanya’da güven ve nostalji, en yüksek marj.",
+   "serve": "0,1 L; ‘Sekt-Empfang’ grup paketi.",
+   "uses": []
+  },
+  {
+   "id": "bb29",
+   "n": "Crémant d'Alsace Brut (Arthur Metz)",
+   "cat": "Köpüklü & Şişe Servisi",
+   "size": 750,
+   "buy": 8,
+   "abv": 12,
+   "sparkling": true,
+   "glass": 100,
+   "sell": 8.5,
+   "sellBottle": 42,
+   "prof": "Geleneksel yöntem; brioche, beyaz çiçek, elma.",
+   "why": "Şampanya hissi, şampanya maliyetinin dörtte biri.",
+   "serve": "0,1 L flüt veya şişe.",
+   "uses": []
+  },
+  {
+   "id": "bb30",
+   "n": "Crémant Rosé Brut",
+   "cat": "Köpüklü & Şişe Servisi",
+   "size": 750,
+   "buy": 9.5,
+   "abv": 12,
+   "sparkling": true,
+   "glass": 100,
+   "sell": 9,
+   "sellBottle": 45,
+   "prof": "Kırmızı meyve, çilek, mineral.",
+   "why": "Rosé köpüklü talebi yüksek; Instagram’lık renk.",
+   "serve": "0,1 L coupe.",
+   "uses": []
+  },
+  {
+   "id": "bb31",
+   "n": "Moët & Chandon Brut Impérial",
+   "cat": "Köpüklü & Şişe Servisi",
+   "size": 750,
+   "buy": 36,
+   "abv": 12,
+   "sparkling": true,
+   "glass": 100,
+   "sell": 16,
+   "sellBottle": 95,
+   "prof": "Elma, armut, brioche.",
+   "why": "Kutlama siparişi; marj % olarak düşük, € olarak yüksek.",
+   "serve": "Şişe + buz kovası; kadeh sadece açık şişe varsa.",
+   "uses": []
+  },
+  {
+   "id": "bb32",
+   "n": "Veuve Clicquot Brut",
+   "cat": "Köpüklü & Şişe Servisi",
+   "size": 750,
+   "buy": 42,
+   "abv": 12,
+   "sparkling": true,
+   "glass": 100,
+   "sell": 18,
+   "sellBottle": 110,
+   "prof": "Pinot ağırlıklı, gövdeli, kuru meyve.",
+   "why": "Turuncu etiket masada ‘premium’ görüntü.",
+   "serve": "Sadece şişe önerilir.",
+   "uses": []
+  },
+  {
+   "id": "bb33",
+   "n": "Lanson Le Black Création",
+   "cat": "Köpüklü & Şişe Servisi",
+   "size": 750,
+   "buy": 30,
+   "abv": 12.5,
+   "sparkling": true,
+   "glass": 100,
+   "sell": 14,
+   "sellBottle": 85,
+   "prof": "Canlı asit, narenciye, kuru.",
+   "why": "Moët’e göre daha iyi marjlı şampanya alternatifi.",
+   "serve": "Şişe veya kadeh.",
+   "uses": []
+  },
+  {
+   "id": "bb34",
+   "n": "Kota Pandan Liqueur",
+   "cat": "Niş & Fark Yaratanlar",
+   "item": "b_kotapandan",
+   "size": 700,
+   "abv": 18,
+   "pour": 40,
+   "sell": 8.5,
+   "prof": "Pandan, vanilya kreması, kavrulmuş pirinç.",
+   "why": "Chemnitz’de muhtemelen kimsede yok; pandan serisinin şişe kanıtı.",
+   "serve": "4 cl buz üzerinde veya ‘Pandan Kota Spritz’.",
+   "uses": [
+    "sp22",
+    "c044",
+    "c065"
+   ]
+  },
+  {
+   "id": "bb35",
+   "n": "Italicus Rosolio di Bergamotto",
+   "cat": "Niş & Fark Yaratanlar",
+   "item": "b_italicus",
+   "size": 700,
+   "abv": 20,
+   "pour": 40,
+   "sell": 8.5,
+   "prof": "Bergamot, papatya, gül.",
+   "why": "Barmenlerin favorisi; Italicus Spritz ile tanıtılır.",
+   "serve": "4 cl buz + 2 yeşil zeytin (İtalyan usulü).",
+   "uses": [
+    "c063",
+    "c090",
+    "c028"
+   ]
+  },
+  {
+   "id": "bb36",
+   "n": "Skinos Mastiha",
+   "cat": "Niş & Fark Yaratanlar",
+   "item": "b_mastiha",
+   "size": 700,
+   "abv": 30,
+   "pour": 40,
+   "sell": 8,
+   "prof": "Sakız reçinesi, çam, nane, anason.",
+   "why": "Ege/Yunan hikâyesi; Türk kökenli barmen anlatısıyla çok güçlü.",
+   "serve": "4 cl buz gibi soğuk veya Mastiha Spritz/Frost shot.",
+   "uses": [
+    "sp15",
+    "sh13"
+   ]
+  },
+  {
+   "id": "bb37",
+   "n": "Choya Yuzu",
+   "cat": "Niş & Fark Yaratanlar",
+   "item": "b_choyayuzu",
+   "size": 750,
+   "abv": 14.7,
+   "pour": 40,
+   "sell": 7,
+   "prof": "Yuzu, mandalina, hafif acılık.",
+   "why": "Japon yuzu trendi; düşük ABV aperitif.",
+   "serve": "4 cl buz + soda (Yuzu Highball, €8).",
+   "uses": [
+    "sp16"
+   ]
+  },
+  {
+   "id": "bb38",
+   "n": "Chartreuse Verte",
+   "cat": "Niş & Fark Yaratanlar",
+   "item": "b_chartverte",
+   "size": 700,
+   "abv": 55,
+   "pour": 40,
+   "sell": 11,
+   "prof": "130 bitki; çam, nane, baharat.",
+   "why": "Barmen kültü; ‘Last Word’ siparişini tetikler.",
+   "serve": "2–4 cl buz gibi, digestif.",
+   "uses": [
+    "c067"
+   ]
+  },
+  {
+   "id": "bb39",
+   "n": "Ancho Reyes",
+   "cat": "Niş & Fark Yaratanlar",
+   "item": "b_ancho",
+   "size": 700,
+   "abv": 40,
+   "pour": 40,
+   "sell": 8.5,
+   "prof": "Kurutulmuş biber, tütsü, kakao.",
+   "why": "Acı-isli niş; mezcal ve kahve kokteyllerine köprü.",
+   "serve": "4 cl buz + portakal kabuğu.",
+   "uses": [
+    "c080"
+   ]
+  },
+  {
+   "id": "bb40",
+   "n": "Amaro Nonino Quintessentia",
+   "cat": "Niş & Fark Yaratanlar",
+   "size": 700,
+   "buy": 33,
+   "abv": 35,
+   "pour": 40,
+   "sell": 10,
+   "prof": "Karamel, portakal, grappa meyvesi.",
+   "why": "‘Paper Plane’ hayranları sorar; premium digestif.",
+   "serve": "4 cl, portakal kabuğu.",
+   "uses": []
+  },
+  {
+   "id": "bb41",
+   "n": "Luxardo Bitter Bianco",
+   "cat": "Niş & Fark Yaratanlar",
+   "item": "b_bitterbianco",
+   "size": 700,
+   "abv": 30,
+   "pour": 40,
+   "sell": 7,
+   "prof": "Beyaz bitter; gentiyan, pelin, narenciye.",
+   "why": "Beyaz Negroni ve Bianco Spritz’lerin kalbi; görsel olarak berrak.",
+   "serve": "4 cl buz + greyfurt kabuğu.",
+   "uses": [
+    "sp13"
+   ]
+  },
+  {
+   "id": "bb42",
+   "n": "Mr Black Coffee Liqueur",
+   "cat": "Niş & Fark Yaratanlar",
+   "size": 700,
+   "buy": 28,
+   "abv": 23,
+   "pour": 40,
+   "sell": 8.5,
+   "prof": "Soğuk demleme kahve, az şeker, bitter çikolata.",
+   "why": "Espresso Martini’yi ‘premium’ yapan şişe; Kahlúa’dan kurudur.",
+   "serve": "4 cl buz üzerinde veya Espresso Martini yükseltmesi (+€1,50).",
+   "uses": [
+    "c077",
+    "c081"
+   ]
+  },
+  {
+   "id": "bb43",
+   "n": "St-Germain",
+   "cat": "Niş & Fark Yaratanlar",
+   "item": "b_stgermain",
+   "size": 700,
+   "abv": 20,
+   "pour": 40,
+   "sell": 8,
+   "prof": "Mürver çiçeği, liçi, armut.",
+   "why": "Hugo’nun premium kökeni; şişe tasarımı arka barda vitrin.",
+   "serve": "4 cl buz + soda.",
+   "uses": [
+    "sp08",
+    "c094"
+   ]
+  },
+  {
+   "id": "bb44",
+   "n": "Suze",
+   "cat": "Niş & Fark Yaratanlar",
+   "item": "b_suze",
+   "size": 1000,
+   "abv": 15,
+   "pour": 40,
+   "sell": 6.5,
+   "prof": "Gentiyan kökü, bal, narenciye; acı.",
+   "why": "Fransız klasiği; Beyaz Negroni anlatısı.",
+   "serve": "4 cl + tonik (Suze Tonic, €8).",
+   "uses": [
+    "c018"
+   ]
+  }
+ ]
+}

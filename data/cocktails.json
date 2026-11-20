@@ -1,0 +1,3457 @@
+{
+ "formats": {
+  "full": {
+   "n": "Tam batch · su dahil",
+   "s": "Dilüsyon suyu dahil batch; soğuktan direkt buza dök. ABV ≥ %25 ise dondurucu, altıysa buzdolabı."
+  },
+  "shake": {
+   "n": "Batch + shake",
+   "s": "Asit-ayarlı batch; ölç, 8–10 sn çalkala, süz"
+  },
+  "top": {
+   "n": "Batch + top",
+   "s": "Batch’i buza dök, soğuk gazlıyla tamamla"
+  },
+  "pour": {
+   "n": "Berrak punch",
+   "s": "Hazır punch; ölç, dök"
+  }
+ },
+ "families": [
+  {
+   "id": "of",
+   "n": "Old Fashioned",
+   "classic": "60 burbon · 1 şeker küpü · 2 dash Angostura"
+  },
+  {
+   "id": "manhattan",
+   "n": "Manhattan",
+   "classic": "60 rye · 30 tatlı vermut · 2 dash Angostura"
+  },
+  {
+   "id": "negroni",
+   "n": "Negroni & Boulevardier",
+   "classic": "30 cin · 30 Campari · 30 tatlı vermut"
+  },
+  {
+   "id": "martini",
+   "n": "Martini & Martinez",
+   "classic": "60 cin · 15 kuru vermut · 1 dash portakal bitter"
+  },
+  {
+   "id": "sazerac",
+   "n": "Sazerac & Vieux Carré",
+   "classic": "60 rye · 1 şeker küpü · 3 dash Peychaud’s · absinthe rinse"
+  },
+  {
+   "id": "gimlet",
+   "n": "Gimlet",
+   "classic": "60 cin · 20 laym cordial"
+  },
+  {
+   "id": "daiquiri",
+   "n": "Daiquiri",
+   "classic": "60 beyaz rom · 22,5 laym · 15 şurup"
+  },
+  {
+   "id": "margarita",
+   "n": "Margarita",
+   "classic": "50 tekila · 20 Cointreau · 22,5 laym"
+  },
+  {
+   "id": "sour",
+   "n": "Sour & Gold Rush",
+   "classic": "50 viski · 25 limon · 20 şurup"
+  },
+  {
+   "id": "tiki",
+   "n": "Mai Tai & Tiki",
+   "classic": "60 rom · 15 curaçao · 15 orgeat · 22,5 laym"
+  },
+  {
+   "id": "paloma",
+   "n": "Paloma",
+   "classic": "50 tekila · 15 laym · greyfurt soda"
+  },
+  {
+   "id": "espresso",
+   "n": "Espresso Martini",
+   "classic": "50 votka · 30 espresso · 20 kahve likörü"
+  },
+  {
+   "id": "highball",
+   "n": "Highball & Collins",
+   "classic": "45 spirit · 20 limon · 15 şurup · soda"
+  },
+  {
+   "id": "spritz",
+   "n": "Spritz",
+   "classic": "60 aperitif · 90 prosecco · 30 soda"
+  },
+  {
+   "id": "punch",
+   "n": "Berrak Punch",
+   "classic": "Süt yıkamalı (milk punch) berrak batch"
+  },
+  {
+   "id": "zero",
+   "n": "Zero-Proof",
+   "classic": "Alkolsüz; alkollü menünün aynı hazırlıklarıyla"
+  }
+ ],
+ "cocktails": [
+  {
+   "id": "c001",
+   "fam": "of",
+   "n": "Fig & Ember Old Fashioned",
+   "de": "Getrocknete Feige, Karamell und ein Hauch Torfrauch.",
+   "base": "Viski",
+   "fmt": "full",
+   "glass": "Rocks",
+   "ice": "Tek büyük küp",
+   "ings": [
+    [
+     "p_i_incir",
+     55
+    ],
+    [
+     "p_demerara",
+     5
+    ],
+    [
+     "b_laphroaig",
+     5
+    ],
+    [
+     "p_bitter",
+     2,
+     "d"
+    ]
+   ],
+   "g": "Portakal kabuğu yağı",
+   "br": "Vanilin + furaneol (incir) ↔ guaiakol (Islay isi)"
+  },
+  {
+   "id": "c002",
+   "fam": "of",
+   "n": "Brown Butter Sage Old Fashioned",
+   "de": "Nussige Brown Butter, Salbei und Thymianhonig.",
+   "base": "Viski",
+   "fmt": "full",
+   "glass": "Rocks",
+   "ice": "Tek büyük küp",
+   "ings": [
+    [
+     "p_f_tereyag",
+     55
+    ],
+    [
+     "p_bal",
+     7.5
+    ],
+    [
+     "b_angostura",
+     2,
+     "d"
+    ],
+    [
+     "p_tuz",
+     1,
+     "d"
+    ]
+   ],
+   "g": "Taze adaçayı yaprağı",
+   "br": "Tujon + sineol (adaçayı) ↔ timol (kekik balı) ↔ vanilin"
+  },
+  {
+   "id": "c003",
+   "fam": "of",
+   "n": "Pimento Rum Old Fashioned",
+   "de": "Jamaika-Rum mit Piment, Melasse und Nelke.",
+   "base": "Rom",
+   "fmt": "full",
+   "glass": "Rocks",
+   "ice": "Tek büyük küp",
+   "ings": [
+    [
+     "p_rom_blend",
+     55
+    ],
+    [
+     "b_allspice",
+     5
+    ],
+    [
+     "p_demerara",
+     5
+    ],
+    [
+     "b_angostura",
+     2,
+     "d"
+    ]
+   ],
+   "g": "Portakal kabuğu, rendelenmiş muskat",
+   "br": "Esterler (Jamaika) ↔ öjenol (yenibahar)"
+  },
+  {
+   "id": "c004",
+   "fam": "of",
+   "n": "Pandan Coconut Old Fashioned",
+   "de": "Kokos-Rum, Pandan und warme Gewürze – wie Reispudding.",
+   "base": "Rom",
+   "fmt": "full",
+   "glass": "Rocks",
+   "ice": "Tek büyük küp",
+   "ings": [
+    [
+     "p_f_hindistan",
+     50
+    ],
+    [
+     "p_pandan",
+     10
+    ],
+    [
+     "p_bitter",
+     2,
+     "d"
+    ],
+    [
+     "p_tuz",
+     1,
+     "d"
+    ]
+   ],
+   "g": "Pandan yaprağı düğümü",
+   "br": "2-AP (pandan) ↔ δ-laktonlar (hindistan cevizi)"
+  },
+  {
+   "id": "c005",
+   "fam": "of",
+   "n": "Smoked Cardamom Agave Old Fashioned",
+   "de": "Rauchige Agave, grüner Kardamom und dunkler Zucker.",
+   "base": "Agave",
+   "fmt": "full",
+   "glass": "Rocks",
+   "ice": "Tek büyük küp",
+   "ings": [
+    [
+     "p_i_lapsang",
+     40
+    ],
+    [
+     "b_vida",
+     10
+    ],
+    [
+     "p_kakule",
+     7.5
+    ],
+    [
+     "p_t_kakule",
+     1,
+     "d"
+    ],
+    [
+     "b_angostura",
+     1,
+     "d"
+    ]
+   ],
+   "g": "Greyfurt kabuğu yağı",
+   "br": "Guaiakol (is) ↔ 1,8-sineol (kakule) ↔ limonen"
+  },
+  {
+   "id": "c006",
+   "fam": "of",
+   "n": "Coffee & Cacao Rum Old Fashioned",
+   "de": "Rum mit Kaffee, Kakao und Bourbon-Vanille.",
+   "base": "Rom",
+   "fmt": "full",
+   "glass": "Rocks",
+   "ice": "Tek büyük küp",
+   "ings": [
+    [
+     "p_i_kahverom",
+     55
+    ],
+    [
+     "p_vanilya",
+     7.5
+    ],
+    [
+     "p_t_kahvekakao",
+     2,
+     "d"
+    ],
+    [
+     "b_orangebit",
+     1,
+     "d"
+    ]
+   ],
+   "g": "Portakal kabuğu yağı",
+   "br": "Pirazinler (kahve) ↔ vanilin ↔ furaneol (Demerara)"
+  },
+  {
+   "id": "c007",
+   "fam": "of",
+   "n": "Wild Thyme Rye Old Fashioned",
+   "de": "Würziger Rye mit Thymianhonig und Zitronenzeste.",
+   "base": "Viski",
+   "fmt": "full",
+   "glass": "Rocks",
+   "ice": "Tek büyük küp",
+   "ings": [
+    [
+     "b_rye",
+     55
+    ],
+    [
+     "p_bal",
+     7.5
+    ],
+    [
+     "p_t_kekik",
+     1,
+     "d"
+    ],
+    [
+     "b_angostura",
+     2,
+     "d"
+    ]
+   ],
+   "g": "Limon kabuğu yağı, kekik dalı",
+   "br": "Timol (kekik) ↔ öjenol + karyofilen (çavdar)"
+  },
+  {
+   "id": "c008",
+   "fam": "of",
+   "n": "Spiced Cognac Old Fashioned",
+   "de": "Cognac mit Zimt, Nelke und Orangenöl.",
+   "base": "Diğer",
+   "fmt": "full",
+   "glass": "Rocks",
+   "ice": "Tek büyük küp",
+   "ings": [
+    [
+     "b_cognac",
+     50
+    ],
+    [
+     "p_tarcin",
+     7.5
+    ],
+    [
+     "p_bitter",
+     2,
+     "d"
+    ]
+   ],
+   "g": "Portakal kabuğu",
+   "br": "Sinamaldehit + öjenol ↔ damaskenon (konyak)"
+  },
+  {
+   "id": "c009",
+   "fam": "manhattan",
+   "n": "Fig Leaf Manhattan",
+   "de": "Feigen-Bourbon, süßer Wermut, hausgemachte Bitters.",
+   "base": "Viski",
+   "fmt": "full",
+   "glass": "Nick & Nora",
+   "ice": "Buzsuz (dondurucudan)",
+   "ings": [
+    [
+     "p_i_incir",
+     50
+    ],
+    [
+     "p_rosso",
+     25
+    ],
+    [
+     "p_bitter",
+     2,
+     "d"
+    ]
+   ],
+   "g": "Konyak kirazı",
+   "br": "Furaneol (incir) ↔ vanilin (PX + fıçı)"
+  },
+  {
+   "id": "c010",
+   "fam": "manhattan",
+   "n": "Black Coffee Manhattan",
+   "de": "Rye, Amaro und Kaffee-Kakao – dunkel und trocken.",
+   "base": "Viski",
+   "fmt": "full",
+   "glass": "Nick & Nora",
+   "ice": "Buzsuz (dondurucudan)",
+   "ings": [
+    [
+     "b_rye",
+     45
+    ],
+    [
+     "p_rosso",
+     20
+    ],
+    [
+     "b_montenegro",
+     10
+    ],
+    [
+     "p_t_kahvekakao",
+     2,
+     "d"
+    ]
+   ],
+   "g": "Portakal kabuğu yağı",
+   "br": "Pirazinler ↔ karyofilen + öjenol (rye)"
+  },
+  {
+   "id": "c011",
+   "fam": "manhattan",
+   "n": "Brown Butter Manhattan",
+   "de": "Samtiger Bourbon mit Brown Butter und Salbei.",
+   "base": "Viski",
+   "fmt": "full",
+   "glass": "Coupe",
+   "ice": "Buzsuz (dondurucudan)",
+   "ings": [
+    [
+     "p_f_tereyag",
+     45
+    ],
+    [
+     "p_rosso",
+     25
+    ],
+    [
+     "b_angostura",
+     2,
+     "d"
+    ],
+    [
+     "b_orangebit",
+     1,
+     "d"
+    ]
+   ],
+   "g": "Adaçayı yaprağı",
+   "br": "Laktonlar + vanilin ↔ tujon (adaçayı)"
+  },
+  {
+   "id": "c012",
+   "fam": "manhattan",
+   "n": "Banana Bread Rum Manhattan",
+   "de": "Kaffee-Rum, Banane und Wermut – wie warmes Bananenbrot.",
+   "base": "Rom",
+   "fmt": "full",
+   "glass": "Nick & Nora",
+   "ice": "Buzsuz (dondurucudan)",
+   "ings": [
+    [
+     "p_i_kahverom",
+     45
+    ],
+    [
+     "p_rosso",
+     20
+    ],
+    [
+     "b_banane",
+     7.5
+    ],
+    [
+     "b_angostura",
+     2,
+     "d"
+    ]
+   ],
+   "g": "Yok",
+   "br": "İzoamil asetat (muz) ↔ pirazinler + furaneol"
+  },
+  {
+   "id": "c013",
+   "fam": "manhattan",
+   "n": "Cardamom Rye Manhattan",
+   "de": "Rye mit grünem Kardamom und Kräuterlikör.",
+   "base": "Viski",
+   "fmt": "full",
+   "glass": "Coupe",
+   "ice": "Buzsuz (dondurucudan)",
+   "ings": [
+    [
+     "b_rye",
+     45
+    ],
+    [
+     "p_rosso",
+     20
+    ],
+    [
+     "b_benedictine",
+     5
+    ],
+    [
+     "p_t_kakule",
+     2,
+     "d"
+    ]
+   ],
+   "g": "Limon kabuğu yağı",
+   "br": "1,8-Sineol + linalool (kakule) ↔ bal-safran (Bénédictine)"
+  },
+  {
+   "id": "c014",
+   "fam": "manhattan",
+   "n": "Islay Smoke Manhattan",
+   "de": "Rye, Wermut und ein Schleier Islay-Rauch.",
+   "base": "Viski",
+   "fmt": "full",
+   "glass": "Nick & Nora",
+   "ice": "Buzsuz (dondurucudan)",
+   "ings": [
+    [
+     "b_rye",
+     45
+    ],
+    [
+     "p_rosso",
+     20
+    ],
+    [
+     "b_laphroaig",
+     5
+    ],
+    [
+     "p_bitter",
+     2,
+     "d"
+    ]
+   ],
+   "g": "Portakal kabuğu",
+   "br": "Guaiakol ↔ öjenol + vanilin"
+  },
+  {
+   "id": "c015",
+   "fam": "manhattan",
+   "n": "Pandan Bourbon Manhattan",
+   "de": "Bourbon, Wermut und Pandan – vanillig, nussig.",
+   "base": "Viski",
+   "fmt": "full",
+   "glass": "Coupe",
+   "ice": "Buzsuz (dondurucudan)",
+   "ings": [
+    [
+     "b_buffalo",
+     50
+    ],
+    [
+     "p_rosso",
+     20
+    ],
+    [
+     "p_pandan",
+     5
+    ],
+    [
+     "p_bitter",
+     2,
+     "d"
+    ]
+   ],
+   "g": "Pandan yaprağı",
+   "br": "2-AP ↔ viski laktonu + vanilin"
+  },
+  {
+   "id": "c016",
+   "fam": "negroni",
+   "n": "Pink Pepper Grapefruit Negroni",
+   "de": "Gin mit rosa Pfeffer, Grapefruit und Rosmarin.",
+   "base": "Cin",
+   "fmt": "full",
+   "glass": "Rocks",
+   "ice": "Tek büyük küp",
+   "ings": [
+    [
+     "p_i_pembebiber",
+     30
+    ],
+    [
+     "b_campari",
+     25
+    ],
+    [
+     "p_rosso",
+     25
+    ],
+    [
+     "p_greyfurt",
+     5
+    ]
+   ],
+   "g": "Greyfurt kabuğu, biberiye",
+   "br": "Pinen + mirsen (pembe biber) ↔ nootkaton (greyfurt) ↔ limonen"
+  },
+  {
+   "id": "c017",
+   "fam": "negroni",
+   "n": "Earl Grey Negroni",
+   "de": "Bergamotte-Tee-Gin, Campari, süßer Wermut.",
+   "base": "Cin",
+   "fmt": "full",
+   "glass": "Rocks",
+   "ice": "Tek büyük küp",
+   "ings": [
+    [
+     "p_i_earlgrey",
+     30
+    ],
+    [
+     "b_campari",
+     30
+    ],
+    [
+     "p_rosso",
+     30
+    ]
+   ],
+   "g": "Portakal kabuğu",
+   "br": "Linalool + limonen (bergamot) ↔ acı portakal"
+  },
+  {
+   "id": "c018",
+   "fam": "negroni",
+   "n": "White Bergamot Negroni",
+   "de": "Trocken, floral, Enzian-Bitter und Bergamotte.",
+   "base": "Cin",
+   "fmt": "full",
+   "glass": "Rocks",
+   "ice": "Tek büyük küp",
+   "ings": [
+    [
+     "b_beefeater",
+     35
+    ],
+    [
+     "p_bianco",
+     30
+    ],
+    [
+     "b_suze",
+     20
+    ]
+   ],
+   "g": "Limon kabuğu",
+   "br": "Limonen + linalool ↔ gentiyan (terpineol)"
+  },
+  {
+   "id": "c019",
+   "fam": "negroni",
+   "n": "Coffee Rum Negroni",
+   "de": "Kaffee-Kakao-Rum, Campari und Wermut.",
+   "base": "Rom",
+   "fmt": "full",
+   "glass": "Rocks",
+   "ice": "Tek büyük küp",
+   "ings": [
+    [
+     "p_i_kahverom",
+     30
+    ],
+    [
+     "b_campari",
+     30
+    ],
+    [
+     "p_rosso",
+     30
+    ]
+   ],
+   "g": "Portakal kabuğu, 2 kahve çekirdeği",
+   "br": "Pirazinler ↔ limonen (acı portakal)"
+  },
+  {
+   "id": "c020",
+   "fam": "negroni",
+   "n": "Smoked Agave Negroni",
+   "de": "Rauchige Agave mit Campari und dunklem Wermut.",
+   "base": "Agave",
+   "fmt": "full",
+   "glass": "Rocks",
+   "ice": "Tek büyük küp",
+   "ings": [
+    [
+     "p_i_lapsang",
+     30
+    ],
+    [
+     "b_campari",
+     25
+    ],
+    [
+     "p_rosso",
+     25
+    ],
+    [
+     "b_vida",
+     5
+    ]
+   ],
+   "g": "Greyfurt kabuğu",
+   "br": "Guaiakol ↔ limonen + nootkaton"
+  },
+  {
+   "id": "c021",
+   "fam": "negroni",
+   "n": "Pineapple Jungle Negroni",
+   "de": "Rum, Campari und klare Ananas – tropisch-bitter.",
+   "base": "Rom",
+   "fmt": "full",
+   "glass": "Rocks",
+   "ice": "Tek büyük küp",
+   "ings": [
+    [
+     "p_rom_blend",
+     30
+    ],
+    [
+     "b_campari",
+     25
+    ],
+    [
+     "p_rosso",
+     20
+    ],
+    [
+     "p_ananas",
+     10
+    ]
+   ],
+   "g": "Ananas yaprağı",
+   "br": "Esterler + furaneol (ananas) ↔ limonen (Campari)"
+  },
+  {
+   "id": "c022",
+   "fam": "negroni",
+   "n": "Mediterranean Olive Oil Negroni",
+   "de": "Seidiger Olivenöl-Gin, Campari und Thymian.",
+   "base": "Cin",
+   "fmt": "full",
+   "glass": "Rocks",
+   "ice": "Tek büyük küp",
+   "ings": [
+    [
+     "p_f_zeytin",
+     30
+    ],
+    [
+     "b_campari",
+     25
+    ],
+    [
+     "p_rosso",
+     25
+    ],
+    [
+     "p_t_kekik",
+     1,
+     "d"
+    ]
+   ],
+   "g": "Zeytin + portakal kabuğu",
+   "br": "Pinen (cin) ↔ timol (kekik) ↔ limonen"
+  },
+  {
+   "id": "c023",
+   "fam": "negroni",
+   "n": "Brown Butter Boulevardier",
+   "de": "Brown-Butter-Bourbon, Campari und Wermut – rund und warm.",
+   "base": "Viski",
+   "fmt": "full",
+   "glass": "Rocks",
+   "ice": "Tek büyük küp",
+   "ings": [
+    [
+     "p_f_tereyag",
+     35
+    ],
+    [
+     "b_campari",
+     25
+    ],
+    [
+     "p_rosso",
+     25
+    ]
+   ],
+   "g": "Portakal kabuğu",
+   "br": "Laktonlar + vanilin ↔ limonen + benzaldehit (Campari)"
+  },
+  {
+   "id": "c024",
+   "fam": "martini",
+   "n": "Olive Oil Martini",
+   "de": "Seidig, salzig, grün – ein Martini mit Olivenöl-Gin.",
+   "base": "Cin",
+   "fmt": "full",
+   "glass": "Coupe",
+   "ice": "Buzsuz (dondurucudan)",
+   "ings": [
+    [
+     "p_f_zeytin",
+     55
+    ],
+    [
+     "b_dolin",
+     10
+    ],
+    [
+     "p_tuz",
+     1,
+     "d"
+    ]
+   ],
+   "g": "Arbequina zeytini, limon kabuğu yağı",
+   "br": "Pinen ↔ zeytinin yeşil aldehitleri"
+  },
+  {
+   "id": "c025",
+   "fam": "martini",
+   "n": "Earl Grey Martini",
+   "de": "Gin mit Earl Grey und trockenem Bianco – elegant.",
+   "base": "Cin",
+   "fmt": "full",
+   "glass": "Nick & Nora",
+   "ice": "Buzsuz (dondurucudan)",
+   "ings": [
+    [
+     "p_i_earlgrey",
+     50
+    ],
+    [
+     "p_bianco",
+     15
+    ],
+    [
+     "b_orangebit",
+     1,
+     "d"
+    ]
+   ],
+   "g": "Limon kabuğu",
+   "br": "Linalool (bergamot) ↔ linalool + geraniol (Lillet, Italicus)"
+  },
+  {
+   "id": "c026",
+   "fam": "martini",
+   "n": "Pink Pepper Martini",
+   "de": "Rosa Pfeffer, Grapefruit, trocken und klar.",
+   "base": "Cin",
+   "fmt": "full",
+   "glass": "Nick & Nora",
+   "ice": "Buzsuz (dondurucudan)",
+   "ings": [
+    [
+     "p_i_pembebiber",
+     50
+    ],
+    [
+     "p_bianco",
+     15
+    ],
+    [
+     "p_greyfurt",
+     2.5
+    ]
+   ],
+   "g": "Greyfurt kabuğu yağı",
+   "br": "Mirsen + pinen ↔ nootkaton"
+  },
+  {
+   "id": "c027",
+   "fam": "martini",
+   "n": "Sencha Roku Martini",
+   "de": "Japanischer Gin, grüner Tee und Yuzu-Frische.",
+   "base": "Cin",
+   "fmt": "full",
+   "glass": "Nick & Nora",
+   "ice": "Buzsuz (dondurucudan)",
+   "ings": [
+    [
+     "b_roku",
+     45
+    ],
+    [
+     "p_bianco",
+     15
+    ],
+    [
+     "p_sencha",
+     5
+    ],
+    [
+     "p_tuz",
+     1,
+     "d"
+    ]
+   ],
+   "g": "Limon kabuğu",
+   "br": "Linalool + osimen (sencha) ↔ limonen (yuzu)"
+  },
+  {
+   "id": "c028",
+   "fam": "martini",
+   "n": "Bergamot Vesper",
+   "de": "Wodka, Bergamotte-Likör und Bianco – frisch, floral.",
+   "base": "Diğer",
+   "fmt": "full",
+   "glass": "Coupe",
+   "ice": "Buzsuz (dondurucudan)",
+   "ings": [
+    [
+     "b_vodka",
+     45
+    ],
+    [
+     "b_italicus",
+     15
+    ],
+    [
+     "b_dolin",
+     10
+    ]
+   ],
+   "g": "Limon kabuğu",
+   "br": "Limonen + linalool (bergamot) ↔ Alp otları (Dolin)"
+  },
+  {
+   "id": "c029",
+   "fam": "martini",
+   "n": "Wild Thyme Mediterranean Martini",
+   "de": "Gin Mare, Bianco und wilder Thymian.",
+   "base": "Cin",
+   "fmt": "full",
+   "glass": "Coupe",
+   "ice": "Buzsuz (dondurucudan)",
+   "ings": [
+    [
+     "b_ginmare",
+     45
+    ],
+    [
+     "p_bianco",
+     15
+    ],
+    [
+     "p_t_kekik",
+     1,
+     "d"
+    ]
+   ],
+   "g": "Zeytin, kekik dalı",
+   "br": "Timol (kekik) ↔ sineol + osimen (biberiye, fesleğen)"
+  },
+  {
+   "id": "c030",
+   "fam": "martini",
+   "n": "Pandan Martinez",
+   "de": "Gin, Wermut, Maraschino und Pandan – rund, nussig.",
+   "base": "Cin",
+   "fmt": "full",
+   "glass": "Nick & Nora",
+   "ice": "Buzsuz (dondurucudan)",
+   "ings": [
+    [
+     "b_beefeater",
+     45
+    ],
+    [
+     "p_rosso",
+     15
+    ],
+    [
+     "b_maraschino",
+     5
+    ],
+    [
+     "p_pandan",
+     5
+    ],
+    [
+     "b_orangebit",
+     1,
+     "d"
+    ]
+   ],
+   "g": "Portakal kabuğu",
+   "br": "2-AP ↔ benzaldehit (maraschino) ↔ vanilin"
+  },
+  {
+   "id": "c031",
+   "fam": "sazerac",
+   "n": "Cardamom Sazerac",
+   "de": "Rye, Kardamom, Anis – klassisch New Orleans, neu gedacht.",
+   "base": "Viski",
+   "fmt": "full",
+   "glass": "Rocks (buzsuz)",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "b_rye",
+     55
+    ],
+    [
+     "p_kakule",
+     7.5
+    ],
+    [
+     "b_peychauds",
+     3,
+     "d"
+    ],
+    [
+     "b_absinthe",
+     2
+    ]
+   ],
+   "g": "Limon kabuğu yağı (kabuk atılır)",
+   "br": "Anetol ↔ 1,8-sineol (kakule) ↔ öjenol (rye)"
+  },
+  {
+   "id": "c032",
+   "fam": "sazerac",
+   "n": "Fig Rum Sazerac",
+   "de": "Rum und Feigen-Bourbon mit Anis und Peychaud’s.",
+   "base": "Rom",
+   "fmt": "full",
+   "glass": "Rocks (buzsuz)",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "p_rom_blend",
+     30
+    ],
+    [
+     "p_i_incir",
+     25
+    ],
+    [
+     "p_demerara",
+     5
+    ],
+    [
+     "b_peychauds",
+     3,
+     "d"
+    ],
+    [
+     "b_absinthe",
+     2
+    ]
+   ],
+   "g": "Limon kabuğu yağı",
+   "br": "Esterler + furaneol ↔ anetol"
+  },
+  {
+   "id": "c033",
+   "fam": "sazerac",
+   "n": "House Vieux Carré",
+   "de": "Rye, Cognac, Wermut und Bénédictine – tief und rund.",
+   "base": "Viski",
+   "fmt": "full",
+   "glass": "Rocks",
+   "ice": "Tek büyük küp",
+   "ings": [
+    [
+     "b_rye",
+     25
+    ],
+    [
+     "b_cognac",
+     15
+    ],
+    [
+     "p_rosso",
+     25
+    ],
+    [
+     "b_benedictine",
+     5
+    ],
+    [
+     "b_angostura",
+     2,
+     "d"
+    ],
+    [
+     "b_peychauds",
+     2,
+     "d"
+    ]
+   ],
+   "g": "Limon kabuğu",
+   "br": "Öjenol + karyofilen ↔ bal-safran ↔ damaskenon"
+  },
+  {
+   "id": "c034",
+   "fam": "sazerac",
+   "n": "Oaxaca Sazerac",
+   "de": "Rauchige Agave, Vanille und Anis.",
+   "base": "Agave",
+   "fmt": "full",
+   "glass": "Rocks (buzsuz)",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "p_i_lapsang",
+     45
+    ],
+    [
+     "b_vida",
+     10
+    ],
+    [
+     "p_vanilya",
+     5
+    ],
+    [
+     "b_peychauds",
+     3,
+     "d"
+    ],
+    [
+     "b_absinthe",
+     2
+    ]
+   ],
+   "g": "Greyfurt kabuğu yağı",
+   "br": "Guaiakol ↔ vanilin ↔ anetol"
+  },
+  {
+   "id": "c035",
+   "fam": "sazerac",
+   "n": "Cinnamon Cognac Sazerac",
+   "de": "Cognac, Zimt-Nelke und ein Hauch Absinth.",
+   "base": "Diğer",
+   "fmt": "full",
+   "glass": "Rocks (buzsuz)",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "b_cognac",
+     50
+    ],
+    [
+     "p_tarcin",
+     7.5
+    ],
+    [
+     "b_peychauds",
+     3,
+     "d"
+    ],
+    [
+     "b_absinthe",
+     2
+    ]
+   ],
+   "g": "Limon kabuğu yağı",
+   "br": "Sinamaldehit ↔ anetol ↔ damaskenon"
+  },
+  {
+   "id": "c036",
+   "fam": "gimlet",
+   "n": "Toasted Coriander Gimlet",
+   "de": "Gin mit geröstetem Koriander und Limettenöl.",
+   "base": "Cin",
+   "fmt": "shake",
+   "glass": "Nick & Nora",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "b_beefeater",
+     50
+    ],
+    [
+     "p_kisnis",
+     25
+    ],
+    [
+     "p_laymasit",
+     10
+    ]
+   ],
+   "g": "Laym kabuğu yağı",
+   "br": "Linalool (kişniş) ↔ pinen (ardıç) ↔ limonen + terpineol (laym)"
+  },
+  {
+   "id": "c037",
+   "fam": "gimlet",
+   "n": "Grapefruit Rosemary Gimlet",
+   "de": "Gin, Grapefruit-Oleo und Rosmarin – herb und frisch.",
+   "base": "Cin",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "b_beefeater",
+     50
+    ],
+    [
+     "p_greyfurt",
+     22.5
+    ],
+    [
+     "p_laymasit",
+     10
+    ]
+   ],
+   "g": "Biberiye yaprağı",
+   "br": "Pinen + sineol (biberiye) ↔ nootkaton"
+  },
+  {
+   "id": "c038",
+   "fam": "gimlet",
+   "n": "Sencha Gimlet",
+   "de": "Japanischer Gin mit Grüntee-Limetten-Cordial.",
+   "base": "Cin",
+   "fmt": "shake",
+   "glass": "Nick & Nora",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "b_roku",
+     50
+    ],
+    [
+     "p_sencha",
+     25
+    ],
+    [
+     "p_laymasit",
+     10
+    ]
+   ],
+   "g": "Yok",
+   "br": "Linalool + osimen ↔ limonen"
+  },
+  {
+   "id": "c039",
+   "fam": "gimlet",
+   "n": "Cucumber Mint Gimlet",
+   "de": "Gurke, Minze, Rose – kühl und hell.",
+   "base": "Cin",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "b_hendricks",
+     50
+    ],
+    [
+     "p_salatalik",
+     30
+    ],
+    [
+     "p_laymasit",
+     10
+    ]
+   ],
+   "g": "İnce salatalık şeridi",
+   "br": "Nonadienal (salatalık) ↔ geraniol (gül) ↔ karvon (nane)"
+  },
+  {
+   "id": "c040",
+   "fam": "gimlet",
+   "n": "Olive Basil Gimlet",
+   "de": "Olivenöl-Gin mit leuchtend grünem Basilikum.",
+   "base": "Cin",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "p_f_zeytin",
+     50
+    ],
+    [
+     "p_feslegen",
+     20
+    ],
+    [
+     "p_laymasit",
+     20
+    ]
+   ],
+   "g": "Fesleğen yaprağı",
+   "br": "Linalool + osimen (fesleğen) ↔ pinen"
+  },
+  {
+   "id": "c041",
+   "fam": "gimlet",
+   "n": "Pandan Coconut Gimlet",
+   "de": "Kokos-Rum, Pandan und Limette.",
+   "base": "Rom",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "p_f_hindistan",
+     50
+    ],
+    [
+     "p_pandan",
+     15
+    ],
+    [
+     "p_laymasit",
+     20
+    ]
+   ],
+   "g": "Pandan yaprağı",
+   "br": "2-AP ↔ laktonlar"
+  },
+  {
+   "id": "c042",
+   "fam": "gimlet",
+   "n": "Jalapeño Coriander Gimlet",
+   "de": "Scharfer Tequila, Koriander und Limette.",
+   "base": "Agave",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "p_i_jalapeno",
+     50
+    ],
+    [
+     "p_kisnis",
+     25
+    ],
+    [
+     "p_laymasit",
+     10
+    ]
+   ],
+   "g": "Jalapeño halkası",
+   "br": "Metoksipirazin (jalapeño) ↔ linalool (kişniş) ↔ agave"
+  },
+  {
+   "id": "c043",
+   "fam": "daiquiri",
+   "n": "House Coriander Daiquiri",
+   "de": "Drei Rums, gerösteter Koriander und Limette.",
+   "base": "Rom",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "p_rom_blend",
+     55
+    ],
+    [
+     "p_kisnis",
+     20
+    ],
+    [
+     "p_laymasit",
+     15
+    ]
+   ],
+   "g": "Laym kabuğu yağı",
+   "br": "Esterler ↔ linalool + limonen"
+  },
+  {
+   "id": "c044",
+   "fam": "daiquiri",
+   "n": "Pandan Daiquiri",
+   "de": "Weißer Rum, Pandan und Limette – grün und cremig.",
+   "base": "Rom",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "b_planteray3",
+     50
+    ],
+    [
+     "p_pandan",
+     15
+    ],
+    [
+     "p_laymasit",
+     22.5
+    ]
+   ],
+   "g": "Pandan yaprağı",
+   "br": "2-AP ↔ esterler + laktonlar (rom)"
+  },
+  {
+   "id": "c045",
+   "fam": "daiquiri",
+   "n": "Hemingway Rosemary Daiquiri",
+   "de": "Rum, Maraschino, Grapefruit und Rosmarin.",
+   "base": "Rom",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "b_planteray3",
+     50
+    ],
+    [
+     "b_maraschino",
+     7.5
+    ],
+    [
+     "p_greyfurt",
+     15
+    ],
+    [
+     "p_laymasit",
+     15
+    ]
+   ],
+   "g": "Greyfurt kabuğu",
+   "br": "Nootkaton ↔ benzaldehit ↔ pinen (biberiye)"
+  },
+  {
+   "id": "c046",
+   "fam": "daiquiri",
+   "n": "Agricole Basil Daiquiri",
+   "de": "Frischer Zuckerrohr-Rum mit Basilikum.",
+   "base": "Rom",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "b_rhumjm",
+     50
+    ],
+    [
+     "p_feslegen",
+     15
+    ],
+    [
+     "p_laymasit",
+     22.5
+    ]
+   ],
+   "g": "Fesleğen yaprağı",
+   "br": "Osimen (kamış + fesleğen) ↔ linalool"
+  },
+  {
+   "id": "c047",
+   "fam": "daiquiri",
+   "n": "Banana Coffee Daiquiri",
+   "de": "Kaffee-Rum, Banane und Limette – dunkel und fruchtig.",
+   "base": "Rom",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "p_i_kahverom",
+     40
+    ],
+    [
+     "b_banane",
+     15
+    ],
+    [
+     "p_laymasit",
+     20
+    ],
+    [
+     "p_demerara",
+     5
+    ]
+   ],
+   "g": "3 kahve çekirdeği",
+   "br": "İzoamil asetat ↔ pirazinler"
+  },
+  {
+   "id": "c048",
+   "fam": "daiquiri",
+   "n": "Pineapple Pimento Daiquiri",
+   "de": "Klare Ananas, Rum und ein Hauch Piment.",
+   "base": "Rom",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "p_rom_blend",
+     50
+    ],
+    [
+     "p_ananas",
+     30
+    ],
+    [
+     "p_laymasit",
+     10
+    ],
+    [
+     "b_allspice",
+     2.5
+    ]
+   ],
+   "g": "Ananas yaprağı",
+   "br": "Esterler + furaneol ↔ öjenol"
+  },
+  {
+   "id": "c049",
+   "fam": "daiquiri",
+   "n": "Hibiscus Ginger Daiquiri",
+   "de": "Hibiskus, rosa Pfeffer und Ingwer – rubinrot.",
+   "base": "Rom",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "b_planteray3",
+     50
+    ],
+    [
+     "p_hibiskus",
+     15
+    ],
+    [
+     "p_zencefil",
+     7.5
+    ],
+    [
+     "p_laymasit",
+     20
+    ]
+   ],
+   "g": "Yok",
+   "br": "Sitral (zencefil) ↔ mirsen (pembe biber) ↔ esterler"
+  },
+  {
+   "id": "c050",
+   "fam": "margarita",
+   "n": "Orange Oleo Margarita",
+   "de": "Tequila mit hausgemachtem Orangen-Oleo statt Triple Sec.",
+   "base": "Agave",
+   "fmt": "shake",
+   "glass": "Rocks (yarım tuz)",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "b_olmeca",
+     50
+    ],
+    [
+     "p_portakal",
+     20
+    ],
+    [
+     "p_laymasit",
+     20
+    ]
+   ],
+   "g": "Laym dilimi",
+   "br": "Limonen ↔ agave linalool"
+  },
+  {
+   "id": "c051",
+   "fam": "margarita",
+   "n": "Smoked Cardamom Margarita",
+   "de": "Rauchige Agave, Kardamom und Salz.",
+   "base": "Agave",
+   "fmt": "shake",
+   "glass": "Rocks",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "p_i_lapsang",
+     45
+    ],
+    [
+     "p_kakule",
+     15
+    ],
+    [
+     "p_laymasit",
+     22.5
+    ],
+    [
+     "p_tuz",
+     1,
+     "d"
+    ]
+   ],
+   "g": "Greyfurt kabuğu yağı",
+   "br": "Guaiakol ↔ 1,8-sineol"
+  },
+  {
+   "id": "c052",
+   "fam": "margarita",
+   "n": "Spicy Pineapple Margarita",
+   "de": "Jalapeño-Tequila und klare Ananas.",
+   "base": "Agave",
+   "fmt": "shake",
+   "glass": "Rocks (tajín kenar)",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "p_i_jalapeno",
+     45
+    ],
+    [
+     "p_ananas",
+     30
+    ],
+    [
+     "p_laymasit",
+     15
+    ]
+   ],
+   "g": "Ananas üçgeni",
+   "br": "Pirazin ↔ esterler + furaneol"
+  },
+  {
+   "id": "c053",
+   "fam": "margarita",
+   "n": "Hibiscus Pink Pepper Margarita",
+   "de": "Blumig, säuerlich, rosa Pfeffer.",
+   "base": "Agave",
+   "fmt": "shake",
+   "glass": "Rocks",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "b_olmeca",
+     50
+    ],
+    [
+     "p_hibiskus",
+     20
+    ],
+    [
+     "p_laymasit",
+     22.5
+    ]
+   ],
+   "g": "Ezilmiş pembe biber kenar",
+   "br": "Mirsen + pinen (pembe biber) ↔ agave"
+  },
+  {
+   "id": "c054",
+   "fam": "margarita",
+   "n": "Spicy Cucumber Coriander Margarita",
+   "de": "Jalapeño-Tequila, Gurke und Koriander – grün und scharf.",
+   "base": "Agave",
+   "fmt": "shake",
+   "glass": "Rocks",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "p_i_jalapeno",
+     45
+    ],
+    [
+     "p_salatalik",
+     25
+    ],
+    [
+     "p_kisnis",
+     10
+    ],
+    [
+     "p_laymasit",
+     10
+    ]
+   ],
+   "g": "Salatalık şeridi",
+   "br": "Metoksipirazin ↔ nonadienal ↔ linalool (kişniş)"
+  },
+  {
+   "id": "c055",
+   "fam": "margarita",
+   "n": "Mezcal Ginger Margarita",
+   "de": "Agave, ein Hauch Mezcal und frischer Ingwer.",
+   "base": "Agave",
+   "fmt": "shake",
+   "glass": "Rocks",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "b_olmeca",
+     35
+    ],
+    [
+     "b_vida",
+     15
+    ],
+    [
+     "p_zencefil",
+     15
+    ],
+    [
+     "p_laymasit",
+     22.5
+    ]
+   ],
+   "g": "Laym dilimi",
+   "br": "Sitral (zencefil) ↔ guaiakol ↔ limonen"
+  },
+  {
+   "id": "c056",
+   "fam": "margarita",
+   "n": "Strawberry Black Pepper Margarita",
+   "de": "Erdbeere, schwarzer Pfeffer und Orange.",
+   "base": "Agave",
+   "fmt": "shake",
+   "glass": "Rocks",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "b_olmeca",
+     45
+    ],
+    [
+     "p_cilekshrub",
+     25
+    ],
+    [
+     "p_portakal",
+     10
+    ],
+    [
+     "p_laymasit",
+     10
+    ]
+   ],
+   "g": "Karabiber (çekilmiş)",
+   "br": "Furaneol + esterler (çilek) ↔ karyofilen (karabiber)"
+  },
+  {
+   "id": "c057",
+   "fam": "sour",
+   "n": "Thyme Honey Gold Rush",
+   "de": "Bourbon, Thymianhonig und Zitrone.",
+   "base": "Viski",
+   "fmt": "shake",
+   "glass": "Rocks",
+   "ice": "Tek büyük küp",
+   "ings": [
+    [
+     "b_buffalo",
+     50
+    ],
+    [
+     "p_bal",
+     20
+    ],
+    [
+     "p_limonasit",
+     22.5
+    ]
+   ],
+   "g": "Limon kabuğu, kekik dalı",
+   "br": "Timol ↔ vanilin + laktonlar"
+  },
+  {
+   "id": "c058",
+   "fam": "sour",
+   "n": "Smoky Ginger Penicillin",
+   "de": "Scotch, Ingwer, Honig und Islay-Rauch obenauf.",
+   "base": "Viski",
+   "fmt": "shake",
+   "glass": "Rocks",
+   "ice": "Tek büyük küp",
+   "ings": [
+    [
+     "b_scotch",
+     45
+    ],
+    [
+     "p_zencefil",
+     10
+    ],
+    [
+     "p_bal",
+     15
+    ],
+    [
+     "p_limonasit",
+     22.5
+    ],
+    [
+     "b_laphroaig",
+     7.5,
+     "f"
+    ]
+   ],
+   "g": "Kristalize zencefil",
+   "br": "Sitral (zencefil) ↔ guaiakol ↔ timol"
+  },
+  {
+   "id": "c059",
+   "fam": "sour",
+   "n": "Brown Butter Sage Sour",
+   "de": "Brown-Butter-Bourbon, Zitrone und Demerara.",
+   "base": "Viski",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "p_f_tereyag",
+     50
+    ],
+    [
+     "p_demerara",
+     15
+    ],
+    [
+     "p_limonasit",
+     22.5
+    ],
+    [
+     "b_angostura",
+     1,
+     "d"
+    ]
+   ],
+   "g": "Angostura damlaları",
+   "br": "Laktonlar ↔ tujon (adaçayı)"
+  },
+  {
+   "id": "c060",
+   "fam": "sour",
+   "n": "Earl Grey Gin Sour",
+   "de": "Earl-Grey-Gin, Zitrone, seidig.",
+   "base": "Cin",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "p_i_earlgrey",
+     50
+    ],
+    [
+     "p_basit",
+     20
+    ],
+    [
+     "p_limonasit",
+     22.5
+    ]
+   ],
+   "g": "Limon kabuğu",
+   "br": "Linalool + limonen ↔ pinen"
+  },
+  {
+   "id": "c061",
+   "fam": "sour",
+   "n": "Pistachio Amaretto Sour",
+   "de": "Amaretto, Bourbon und Pistazie.",
+   "base": "Diğer",
+   "fmt": "shake",
+   "glass": "Rocks",
+   "ice": "Tek büyük küp",
+   "ings": [
+    [
+     "b_amaretto",
+     30
+    ],
+    [
+     "b_buffalo",
+     20
+    ],
+    [
+     "p_orgeat",
+     10
+    ],
+    [
+     "p_limonasit",
+     22.5
+    ]
+   ],
+   "g": "Kırık Antep fıstığı",
+   "br": "Benzaldehit (badem) ↔ vanilin + fıstık"
+  },
+  {
+   "id": "c062",
+   "fam": "sour",
+   "n": "Strawberry Pepper Gin Sour",
+   "de": "Gin, Erdbeer-Pfeffer-Shrub und Zitrone.",
+   "base": "Cin",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "b_beefeater",
+     45
+    ],
+    [
+     "p_cilekshrub",
+     25
+    ],
+    [
+     "p_limonasit",
+     10
+    ],
+    [
+     "p_basit",
+     5
+    ]
+   ],
+   "g": "Çilek dilimi",
+   "br": "Furaneol ↔ karyofilen ↔ pinen"
+  },
+  {
+   "id": "c063",
+   "fam": "sour",
+   "n": "Bergamot Gin Sour",
+   "de": "Gin, Bergamotte und Zitrone – italienisch frisch.",
+   "base": "Cin",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "b_beefeater",
+     40
+    ],
+    [
+     "b_italicus",
+     20
+    ],
+    [
+     "p_limonasit",
+     22.5
+    ],
+    [
+     "p_basit",
+     5
+    ]
+   ],
+   "g": "Limon kabuğu",
+   "br": "Limonen + linalool ↔ pinen"
+  },
+  {
+   "id": "c064",
+   "fam": "tiki",
+   "n": "Galapagos Pistachio Mai Tai",
+   "de": "Drei Rums, Curaçao und Pistazien-Orgeat.",
+   "base": "Rom",
+   "fmt": "shake",
+   "glass": "Rocks",
+   "ice": "Kırık buz",
+   "ings": [
+    [
+     "p_rom_blend",
+     45
+    ],
+    [
+     "b_ferrand",
+     15
+    ],
+    [
+     "p_orgeat",
+     15
+    ],
+    [
+     "p_laymasit",
+     22.5
+    ]
+   ],
+   "g": "Nane tepesi, kullanılmış laym kabuğu",
+   "br": "Esterler ↔ limonen ↔ benzaldehit (fıstık-badem)"
+  },
+  {
+   "id": "c065",
+   "fam": "tiki",
+   "n": "Coconut Pandan Mai Tai",
+   "de": "Kokos-Rum, Pandan, Pistazie und Limette.",
+   "base": "Rom",
+   "fmt": "shake",
+   "glass": "Rocks",
+   "ice": "Kırık buz",
+   "ings": [
+    [
+     "p_f_hindistan",
+     45
+    ],
+    [
+     "b_ferrand",
+     10
+    ],
+    [
+     "p_pandan",
+     10
+    ],
+    [
+     "p_orgeat",
+     7.5
+    ],
+    [
+     "p_laymasit",
+     22.5
+    ]
+   ],
+   "g": "Pandan yaprağı",
+   "br": "2-AP ↔ laktonlar ↔ limonen"
+  },
+  {
+   "id": "c066",
+   "fam": "tiki",
+   "n": "Coffee Jungle Bird",
+   "de": "Kaffee-Rum, Campari und klare Ananas.",
+   "base": "Rom",
+   "fmt": "shake",
+   "glass": "Rocks",
+   "ice": "Tek büyük küp",
+   "ings": [
+    [
+     "p_i_kahverom",
+     40
+    ],
+    [
+     "b_campari",
+     20
+    ],
+    [
+     "p_ananas",
+     30
+    ],
+    [
+     "p_laymasit",
+     10
+    ],
+    [
+     "p_demerara",
+     5
+    ]
+   ],
+   "g": "Ananas yaprağı",
+   "br": "Pirazinler ↔ esterler ↔ limonen"
+  },
+  {
+   "id": "c067",
+   "fam": "tiki",
+   "n": "Chartreuse Pineapple Swizzle",
+   "de": "Kräuter, Ananas und Falernum – kühl und tropisch.",
+   "base": "Rom",
+   "fmt": "shake",
+   "glass": "Collins",
+   "ice": "Kırık buz",
+   "ings": [
+    [
+     "b_planteray3",
+     30
+    ],
+    [
+     "b_chartverte",
+     15
+    ],
+    [
+     "p_ananas",
+     30
+    ],
+    [
+     "b_falernum",
+     15
+    ],
+    [
+     "p_laymasit",
+     15
+    ]
+   ],
+   "g": "Nane, rendelenmiş muskat",
+   "br": "Pinen + mentol ↔ esterler (kontrast)"
+  },
+  {
+   "id": "c068",
+   "fam": "tiki",
+   "n": "Cinnamon Grapefruit Zombie (Lite)",
+   "de": "Rum, Zimt, Grapefruit und ein Hauch Absinth.",
+   "base": "Rom",
+   "fmt": "shake",
+   "glass": "Collins",
+   "ice": "Kırık buz",
+   "ings": [
+    [
+     "p_rom_blend",
+     45
+    ],
+    [
+     "b_falernum",
+     10
+    ],
+    [
+     "p_tarcin",
+     10
+    ],
+    [
+     "p_greyfurt",
+     15
+    ],
+    [
+     "p_laymasit",
+     15
+    ],
+    [
+     "b_absinthe",
+     2
+    ]
+   ],
+   "g": "Nane tepesi",
+   "br": "Sinamaldehit ↔ nootkaton ↔ anetol"
+  },
+  {
+   "id": "c069",
+   "fam": "tiki",
+   "n": "Ginger Pandan Swizzle",
+   "de": "Rum, Ingwer, Pandan, Limette – mit Angostura-Krone.",
+   "base": "Rom",
+   "fmt": "shake",
+   "glass": "Collins",
+   "ice": "Kırık buz",
+   "ings": [
+    [
+     "b_planteray3",
+     45
+    ],
+    [
+     "p_zencefil",
+     10
+    ],
+    [
+     "p_pandan",
+     10
+    ],
+    [
+     "p_laymasit",
+     22.5
+    ],
+    [
+     "b_angostura",
+     3,
+     "f"
+    ]
+   ],
+   "g": "Angostura katmanı, nane",
+   "br": "Sitral ↔ 2-AP ↔ esterler"
+  },
+  {
+   "id": "c070",
+   "fam": "tiki",
+   "n": "Brown Butter Mai Tai",
+   "de": "Brown-Butter-Bourbon trifft Curaçao und Pistazie.",
+   "base": "Viski",
+   "fmt": "shake",
+   "glass": "Rocks",
+   "ice": "Kırık buz",
+   "ings": [
+    [
+     "p_f_tereyag",
+     45
+    ],
+    [
+     "b_ferrand",
+     15
+    ],
+    [
+     "p_orgeat",
+     15
+    ],
+    [
+     "p_limonasit",
+     22.5
+    ]
+   ],
+   "g": "Nane tepesi",
+   "br": "Laktonlar ↔ benzaldehit ↔ limonen"
+  },
+  {
+   "id": "c071",
+   "fam": "paloma",
+   "n": "Rosemary Grapefruit Paloma",
+   "de": "Tequila, Grapefruit-Rosmarin-Oleo und Soda.",
+   "base": "Agave",
+   "fmt": "top",
+   "glass": "Highball (tuzlu kenar)",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "b_olmeca",
+     45
+    ],
+    [
+     "p_greyfurt",
+     25
+    ],
+    [
+     "p_laymasit",
+     10
+    ],
+    [
+     "p_tuz",
+     1,
+     "d"
+    ],
+    [
+     "s_soda",
+     90,
+     "t"
+    ]
+   ],
+   "g": "Greyfurt dilimi, biberiye",
+   "br": "Nootkaton ↔ pinen + sineol ↔ agave"
+  },
+  {
+   "id": "c072",
+   "fam": "paloma",
+   "n": "Smoky Paloma",
+   "de": "Rauchige Agave, Grapefruit und Soda.",
+   "base": "Agave",
+   "fmt": "top",
+   "glass": "Highball",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "p_i_lapsang",
+     45
+    ],
+    [
+     "p_greyfurt",
+     25
+    ],
+    [
+     "p_laymasit",
+     10
+    ],
+    [
+     "s_soda",
+     90,
+     "t"
+    ]
+   ],
+   "g": "Greyfurt dilimi",
+   "br": "Guaiakol ↔ nootkaton"
+  },
+  {
+   "id": "c073",
+   "fam": "paloma",
+   "n": "Hibiscus Paloma",
+   "de": "Tequila, Hibiskus und Grapefruit – rubinrot.",
+   "base": "Agave",
+   "fmt": "top",
+   "glass": "Highball",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "b_olmeca",
+     45
+    ],
+    [
+     "p_hibiskus",
+     15
+    ],
+    [
+     "p_greyfurt",
+     15
+    ],
+    [
+     "p_laymasit",
+     10
+    ],
+    [
+     "s_soda",
+     90,
+     "t"
+    ]
+   ],
+   "g": "Laym dilimi",
+   "br": "Mirsen (pembe biber) ↔ nootkaton"
+  },
+  {
+   "id": "c074",
+   "fam": "paloma",
+   "n": "Pink Pepper Gin Paloma",
+   "de": "Gin mit rosa Pfeffer, Grapefruit und Tonic.",
+   "base": "Cin",
+   "fmt": "top",
+   "glass": "Highball",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "p_i_pembebiber",
+     45
+    ],
+    [
+     "p_greyfurt",
+     25
+    ],
+    [
+     "p_laymasit",
+     10
+    ],
+    [
+     "s_tonik",
+     90,
+     "t"
+    ]
+   ],
+   "g": "Greyfurt dilimi",
+   "br": "Mirsen + pinen ↔ nootkaton + kinin"
+  },
+  {
+   "id": "c075",
+   "fam": "paloma",
+   "n": "Campari Paloma",
+   "de": "Campari, Grapefruit und Soda – bitter-frisch.",
+   "base": "Diğer",
+   "fmt": "top",
+   "glass": "Highball",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "b_campari",
+     35
+    ],
+    [
+     "p_greyfurt",
+     20
+    ],
+    [
+     "p_laymasit",
+     10
+    ],
+    [
+     "p_tuz",
+     1,
+     "d"
+    ],
+    [
+     "s_soda",
+     90,
+     "t"
+    ]
+   ],
+   "g": "Greyfurt dilimi",
+   "br": "Limonen ↔ nootkaton"
+  },
+  {
+   "id": "c076",
+   "fam": "paloma",
+   "n": "Pandan Rum Paloma",
+   "de": "Weißer Rum, Pandan und Grapefruit.",
+   "base": "Rom",
+   "fmt": "top",
+   "glass": "Highball",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "b_planteray3",
+     45
+    ],
+    [
+     "p_greyfurt",
+     20
+    ],
+    [
+     "p_pandan",
+     7.5
+    ],
+    [
+     "p_laymasit",
+     10
+    ],
+    [
+     "s_soda",
+     90,
+     "t"
+    ]
+   ],
+   "g": "Pandan yaprağı",
+   "br": "2-AP ↔ esterler ↔ nootkaton"
+  },
+  {
+   "id": "c077",
+   "fam": "espresso",
+   "n": "Cardamom Espresso Martini",
+   "de": "Cold Brew, Kaffeelikör und grüner Kardamom.",
+   "base": "Diğer",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "b_vodka",
+     40
+    ],
+    [
+     "p_coldbrew",
+     30
+    ],
+    [
+     "b_kahlua",
+     15
+    ],
+    [
+     "p_kakule",
+     10
+    ],
+    [
+     "p_t_kakule",
+     1,
+     "d"
+    ]
+   ],
+   "g": "3 kahve çekirdeği",
+   "br": "Pirazinler ↔ 1,8-sineol (Arap kahvesi mantığı)"
+  },
+  {
+   "id": "c078",
+   "fam": "espresso",
+   "n": "Coffee Rum Espresso",
+   "de": "Kaffee-Kakao-Rum, Cold Brew und Vanille.",
+   "base": "Rom",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "p_i_kahverom",
+     40
+    ],
+    [
+     "p_coldbrew",
+     30
+    ],
+    [
+     "p_vanilya",
+     15
+    ],
+    [
+     "p_t_kahvekakao",
+     1,
+     "d"
+    ]
+   ],
+   "g": "Kakao tozu",
+   "br": "Pirazinler ↔ vanilin ↔ furaneol"
+  },
+  {
+   "id": "c079",
+   "fam": "espresso",
+   "n": "Pandan Coconut Espresso",
+   "de": "Kokos-Rum, Pandan und Cold Brew.",
+   "base": "Rom",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "p_f_hindistan",
+     40
+    ],
+    [
+     "p_coldbrew",
+     30
+    ],
+    [
+     "p_pandan",
+     15
+    ]
+   ],
+   "g": "Kavrulmuş hindistan cevizi",
+   "br": "2-AP ↔ pirazinler ↔ laktonlar"
+  },
+  {
+   "id": "c080",
+   "fam": "espresso",
+   "n": "Mole Espresso",
+   "de": "Agave, Mezcal, Ancho-Chili und Cold Brew.",
+   "base": "Agave",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "b_olmeca",
+     25
+    ],
+    [
+     "b_vida",
+     15
+    ],
+    [
+     "p_coldbrew",
+     30
+    ],
+    [
+     "b_ancho",
+     7.5
+    ],
+    [
+     "p_demerara",
+     10
+    ]
+   ],
+   "g": "Kakao tozu",
+   "br": "Guaiakol ↔ pirazinler (kurutulmuş biber + kahve)"
+  },
+  {
+   "id": "c081",
+   "fam": "espresso",
+   "n": "Brown Butter Espresso",
+   "de": "Brown-Butter-Bourbon, Cold Brew und Kaffeelikör.",
+   "base": "Viski",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "p_f_tereyag",
+     40
+    ],
+    [
+     "p_coldbrew",
+     30
+    ],
+    [
+     "b_kahlua",
+     10
+    ],
+    [
+     "p_demerara",
+     7.5
+    ]
+   ],
+   "g": "Adaçayı yaprağı",
+   "br": "Laktonlar + vanilin ↔ pirazinler"
+  },
+  {
+   "id": "c082",
+   "fam": "espresso",
+   "n": "Pistachio Bourbon Espresso",
+   "de": "Bourbon, Pistazien-Orgeat und Cold Brew.",
+   "base": "Viski",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "b_buffalo",
+     35
+    ],
+    [
+     "p_coldbrew",
+     30
+    ],
+    [
+     "p_orgeat",
+     15
+    ],
+    [
+     "b_kahlua",
+     10
+    ]
+   ],
+   "g": "Kırık Antep fıstığı",
+   "br": "Pirazinler ↔ fıstık ↔ vanilin"
+  },
+  {
+   "id": "c083",
+   "fam": "highball",
+   "n": "Sencha Gin Highball",
+   "de": "Japanischer Gin, grüner Tee und Soda.",
+   "base": "Cin",
+   "fmt": "top",
+   "glass": "Highball",
+   "ice": "Buz dolu (berrak)",
+   "ings": [
+    [
+     "b_roku",
+     45
+    ],
+    [
+     "p_sencha",
+     15
+    ],
+    [
+     "s_soda",
+     120,
+     "t"
+    ]
+   ],
+   "g": "Limon kabuğu",
+   "br": "Linalool + osimen ↔ limonen"
+  },
+  {
+   "id": "c084",
+   "fam": "highball",
+   "n": "Cucumber Mint Collins",
+   "de": "Gin, Gurke, Minze und Soda.",
+   "base": "Cin",
+   "fmt": "top",
+   "glass": "Collins",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "b_hendricks",
+     45
+    ],
+    [
+     "p_salatalik",
+     25
+    ],
+    [
+     "p_laymasit",
+     10
+    ],
+    [
+     "s_soda",
+     100,
+     "t"
+    ]
+   ],
+   "g": "Salatalık şeridi, nane",
+   "br": "Nonadienal ↔ karvon ↔ geraniol"
+  },
+  {
+   "id": "c085",
+   "fam": "highball",
+   "n": "Fernet Rye Buck",
+   "de": "Rye, Fernet, Ingwer und Soda – würzig-kühl.",
+   "base": "Viski",
+   "fmt": "top",
+   "glass": "Highball",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "b_rye",
+     40
+    ],
+    [
+     "b_fernet",
+     15
+    ],
+    [
+     "p_zencefil",
+     15
+    ],
+    [
+     "p_limonasit",
+     10
+    ],
+    [
+     "s_soda",
+     110,
+     "t"
+    ]
+   ],
+   "g": "Laym dilimi, nane",
+   "br": "Mentol + sineol ↔ sitral (zencefil)"
+  },
+  {
+   "id": "c086",
+   "fam": "highball",
+   "n": "Coconut Pandan Highball",
+   "de": "Kokos-Rum, Pandan, Limette und Soda.",
+   "base": "Rom",
+   "fmt": "top",
+   "glass": "Highball",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "p_f_hindistan",
+     45
+    ],
+    [
+     "p_pandan",
+     10
+    ],
+    [
+     "p_laymasit",
+     10
+    ],
+    [
+     "s_soda",
+     110,
+     "t"
+    ]
+   ],
+   "g": "Pandan yaprağı",
+   "br": "2-AP ↔ laktonlar"
+  },
+  {
+   "id": "c087",
+   "fam": "highball",
+   "n": "Fig & Ginger Highball",
+   "de": "Feigen-Bourbon, Ingwer und Soda.",
+   "base": "Viski",
+   "fmt": "top",
+   "glass": "Highball",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "p_i_incir",
+     45
+    ],
+    [
+     "p_zencefil",
+     15
+    ],
+    [
+     "p_limonasit",
+     10
+    ],
+    [
+     "s_soda",
+     110,
+     "t"
+    ]
+   ],
+   "g": "Limon kabuğu",
+   "br": "Furaneol ↔ sitral"
+  },
+  {
+   "id": "c088",
+   "fam": "highball",
+   "n": "Earl Grey Collins",
+   "de": "Earl-Grey-Gin, Zitrone und Soda.",
+   "base": "Cin",
+   "fmt": "top",
+   "glass": "Collins",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "p_i_earlgrey",
+     45
+    ],
+    [
+     "p_basit",
+     15
+    ],
+    [
+     "p_limonasit",
+     22.5
+    ],
+    [
+     "s_soda",
+     90,
+     "t"
+    ]
+   ],
+   "g": "Limon dilimi",
+   "br": "Linalool ↔ limonen"
+  },
+  {
+   "id": "c089",
+   "fam": "highball",
+   "n": "Basil Rum Smash Highball",
+   "de": "Weißer Rum, Basilikum, Limette – ohne Muddeln.",
+   "base": "Rom",
+   "fmt": "top",
+   "glass": "Highball",
+   "ice": "Kırık buz",
+   "ings": [
+    [
+     "b_planteray3",
+     45
+    ],
+    [
+     "p_feslegen",
+     15
+    ],
+    [
+     "p_laymasit",
+     20
+    ],
+    [
+     "s_soda",
+     90,
+     "t"
+    ]
+   ],
+   "g": "Fesleğen + nane tepesi",
+   "br": "Linalool + osimen ↔ esterler"
+  },
+  {
+   "id": "c090",
+   "fam": "spritz",
+   "n": "Bergamot Basil Spritz",
+   "de": "Italicus, Basilikum und Sekt.",
+   "base": "Diğer",
+   "fmt": "top",
+   "glass": "Şarap kadehi",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "b_italicus",
+     40
+    ],
+    [
+     "p_feslegen",
+     10
+    ],
+    [
+     "s_sekt",
+     90,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Fesleğen yaprağı",
+   "br": "Limonen + linalool ↔ osimen"
+  },
+  {
+   "id": "c091",
+   "fam": "spritz",
+   "n": "Grapefruit Rosemary Spritz",
+   "de": "Aperol, Grapefruit-Rosmarin und Sekt.",
+   "base": "Diğer",
+   "fmt": "top",
+   "glass": "Şarap kadehi",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "b_aperol",
+     50
+    ],
+    [
+     "p_greyfurt",
+     10
+    ],
+    [
+     "s_sekt",
+     90,
+     "t"
+    ],
+    [
+     "s_soda",
+     20,
+     "t"
+    ]
+   ],
+   "g": "Greyfurt dilimi, biberiye",
+   "br": "Limonen + nootkaton ↔ pinen"
+  },
+  {
+   "id": "c092",
+   "fam": "spritz",
+   "n": "Hibiscus Lillet Spritz",
+   "de": "Lillet, Hibiskus und rosa Pfeffer, mit Sekt.",
+   "base": "Diğer",
+   "fmt": "top",
+   "glass": "Şarap kadehi",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "b_lillet",
+     40
+    ],
+    [
+     "p_hibiskus",
+     15
+    ],
+    [
+     "s_sekt",
+     90,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Portakal dilimi",
+   "br": "Linalool + geraniol ↔ mirsen"
+  },
+  {
+   "id": "c093",
+   "fam": "spritz",
+   "n": "Strawberry Pepper Spritz",
+   "de": "Aperol, Erdbeere und schwarzer Pfeffer.",
+   "base": "Diğer",
+   "fmt": "top",
+   "glass": "Şarap kadehi",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "b_aperol",
+     40
+    ],
+    [
+     "p_cilekshrub",
+     20
+    ],
+    [
+     "s_sekt",
+     90,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Çilek, çekilmiş karabiber",
+   "br": "Furaneol ↔ karyofilen ↔ limonen"
+  },
+  {
+   "id": "c094",
+   "fam": "spritz",
+   "n": "Sencha Elderflower Spritz",
+   "de": "Japanischer Gin, Holunderblüte, grüner Tee und Sekt.",
+   "base": "Cin",
+   "fmt": "top",
+   "glass": "Şarap kadehi",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "b_roku",
+     30
+    ],
+    [
+     "b_stgermain",
+     15
+    ],
+    [
+     "p_sencha",
+     15
+    ],
+    [
+     "s_sekt",
+     80,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Limon kabuğu",
+   "br": "Linalool + osimen ↔ geraniol (mürver)"
+  },
+  {
+   "id": "c095",
+   "fam": "spritz",
+   "n": "Clear Colada Spritz",
+   "de": "Klarer Piña-Colada-Punch mit Sekt.",
+   "base": "Rom",
+   "fmt": "top",
+   "glass": "Şarap kadehi",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "p_m_pinacolada",
+     60
+    ],
+    [
+     "s_sekt",
+     60,
+     "t"
+    ],
+    [
+     "s_soda",
+     30,
+     "t"
+    ]
+   ],
+   "g": "Ananas yaprağı",
+   "br": "Laktonlar ↔ esterler"
+  },
+  {
+   "id": "c096",
+   "fam": "punch",
+   "n": "Clear Piña Colada",
+   "de": "Kristallklar, cremig, tropisch – Milk Punch.",
+   "base": "Rom",
+   "fmt": "pour",
+   "glass": "Rocks",
+   "ice": "Berrak büyük küp",
+   "ings": [
+    [
+     "p_m_pinacolada",
+     100
+    ]
+   ],
+   "g": "Ananas yaprağı",
+   "br": "Laktonlar ↔ esterler ↔ furaneol"
+  },
+  {
+   "id": "c097",
+   "fam": "punch",
+   "n": "Earl Grey Gin Milk Punch",
+   "de": "Klar, seidig, Bergamotte und Zitrone.",
+   "base": "Cin",
+   "fmt": "pour",
+   "glass": "Rocks",
+   "ice": "Berrak büyük küp",
+   "ings": [
+    [
+     "p_m_earlgrey",
+     100
+    ]
+   ],
+   "g": "Limon kabuğu",
+   "br": "Linalool ↔ limonen"
+  },
+  {
+   "id": "c098",
+   "fam": "punch",
+   "n": "Colada Highball",
+   "de": "Klarer Colada-Punch, verlängert mit Soda.",
+   "base": "Rom",
+   "fmt": "top",
+   "glass": "Highball",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "p_m_pinacolada",
+     75
+    ],
+    [
+     "s_soda",
+     75,
+     "t"
+    ]
+   ],
+   "g": "Laym kabuğu",
+   "br": "Laktonlar ↔ esterler"
+  },
+  {
+   "id": "c099",
+   "fam": "punch",
+   "n": "Earl Grey Punch Royale",
+   "de": "Earl-Grey-Milk-Punch mit Sekt.",
+   "base": "Cin",
+   "fmt": "top",
+   "glass": "Flüt",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "p_m_earlgrey",
+     60
+    ],
+    [
+     "s_sekt",
+     60,
+     "t"
+    ]
+   ],
+   "g": "Limon kabuğu",
+   "br": "Linalool ↔ esterler (sekt)"
+  },
+  {
+   "id": "c100",
+   "fam": "punch",
+   "n": "Pandan Clear Colada",
+   "de": "Klarer Colada-Punch mit Pandan – nussig, klar.",
+   "base": "Rom",
+   "fmt": "pour",
+   "glass": "Rocks",
+   "ice": "Berrak büyük küp",
+   "ings": [
+    [
+     "p_m_pinacolada",
+     90
+    ],
+    [
+     "p_pandan",
+     5
+    ]
+   ],
+   "g": "Pandan yaprağı",
+   "br": "2-AP ↔ laktonlar"
+  },
+  {
+   "id": "z01",
+   "fam": "zero",
+   "zp": true,
+   "n": "Coriander Lime Tonic 0%",
+   "de": "Gerösteter Koriander, Limette, Tonic – alkoholfrei.",
+   "base": "Zero",
+   "fmt": "top",
+   "glass": "Highball",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "p_kisnis",
+     30
+    ],
+    [
+     "p_laymasit",
+     10
+    ],
+    [
+     "s_tonik",
+     120,
+     "t"
+    ]
+   ],
+   "g": "Laym kabuğu",
+   "br": "Linalool ↔ limonen"
+  },
+  {
+   "id": "z02",
+   "fam": "zero",
+   "zp": true,
+   "n": "Grapefruit Rosemary Soda 0%",
+   "de": "Grapefruit, Rosmarin, Salz und Soda.",
+   "base": "Zero",
+   "fmt": "top",
+   "glass": "Highball",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "p_greyfurt",
+     30
+    ],
+    [
+     "p_tuz",
+     1,
+     "d"
+    ],
+    [
+     "s_soda",
+     130,
+     "t"
+    ]
+   ],
+   "g": "Biberiye dalı",
+   "br": "Nootkaton ↔ pinen"
+  },
+  {
+   "id": "z03",
+   "fam": "zero",
+   "zp": true,
+   "n": "Sencha Highball 0%",
+   "de": "Grüner Tee, Limette und Soda.",
+   "base": "Zero",
+   "fmt": "top",
+   "glass": "Highball",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "p_sencha",
+     30
+    ],
+    [
+     "s_soda",
+     140,
+     "t"
+    ]
+   ],
+   "g": "Limon kabuğu",
+   "br": "Linalool + osimen"
+  },
+  {
+   "id": "z04",
+   "fam": "zero",
+   "zp": true,
+   "n": "Cucumber Mint Cooler 0%",
+   "de": "Gurke, Minze und Limette – sehr kühl.",
+   "base": "Zero",
+   "fmt": "top",
+   "glass": "Collins",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "p_salatalik",
+     40
+    ],
+    [
+     "p_laymasit",
+     10
+    ],
+    [
+     "s_soda",
+     120,
+     "t"
+    ]
+   ],
+   "g": "Salatalık şeridi",
+   "br": "Nonadienal ↔ karvon"
+  },
+  {
+   "id": "z05",
+   "fam": "zero",
+   "zp": true,
+   "n": "Pandan Lime Soda 0%",
+   "de": "Pandan, Limette und Soda – nussig-frisch.",
+   "base": "Zero",
+   "fmt": "top",
+   "glass": "Highball",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "p_pandan",
+     20
+    ],
+    [
+     "p_laymasit",
+     15
+    ],
+    [
+     "s_soda",
+     120,
+     "t"
+    ]
+   ],
+   "g": "Pandan yaprağı",
+   "br": "2-AP ↔ limonen"
+  },
+  {
+   "id": "z06",
+   "fam": "zero",
+   "zp": true,
+   "n": "Hibiscus Ginger Fizz 0%",
+   "de": "Hibiskus, Ingwer und Limette.",
+   "base": "Zero",
+   "fmt": "top",
+   "glass": "Highball",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "p_hibiskus",
+     20
+    ],
+    [
+     "p_zencefil",
+     15
+    ],
+    [
+     "p_laymasit",
+     15
+    ],
+    [
+     "s_soda",
+     110,
+     "t"
+    ]
+   ],
+   "g": "Laym dilimi",
+   "br": "Sitral ↔ mirsen"
+  },
+  {
+   "id": "z07",
+   "fam": "zero",
+   "zp": true,
+   "n": "Strawberry Pepper Shrub Soda 0%",
+   "de": "Erdbeere, schwarzer Pfeffer, Essigfrische.",
+   "base": "Zero",
+   "fmt": "top",
+   "glass": "Highball",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "p_cilekshrub",
+     35
+    ],
+    [
+     "s_soda",
+     130,
+     "t"
+    ]
+   ],
+   "g": "Çilek dilimi",
+   "br": "Furaneol ↔ karyofilen"
+  },
+  {
+   "id": "z08",
+   "fam": "zero",
+   "zp": true,
+   "n": "Pistachio Cold Brew Tonic 0%",
+   "de": "Cold Brew, Pistazie und Tonic.",
+   "base": "Zero",
+   "fmt": "top",
+   "glass": "Highball",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "p_coldbrew",
+     40
+    ],
+    [
+     "p_orgeat",
+     15
+    ],
+    [
+     "s_tonik",
+     100,
+     "t"
+    ]
+   ],
+   "g": "Portakal kabuğu",
+   "br": "Pirazinler ↔ fıstık"
+  },
+  {
+   "id": "z09",
+   "fam": "zero",
+   "zp": true,
+   "n": "Zero Cardamom Espresso",
+   "de": "Cold Brew, Kardamom und Vanille – geschüttelt.",
+   "base": "Zero",
+   "fmt": "shake",
+   "glass": "Coupe",
+   "ice": "Buzsuz",
+   "ings": [
+    [
+     "p_coldbrew",
+     60
+    ],
+    [
+     "p_kakule",
+     15
+    ],
+    [
+     "p_vanilya",
+     5
+    ],
+    [
+     "p_tuz",
+     1,
+     "d"
+    ]
+   ],
+   "g": "3 kahve çekirdeği",
+   "br": "Pirazinler ↔ 1,8-sineol ↔ vanilin"
+  },
+  {
+   "id": "z10",
+   "fam": "zero",
+   "zp": true,
+   "n": "Basil Lemonade 0%",
+   "de": "Basilikum, Zitrone und Soda.",
+   "base": "Zero",
+   "fmt": "top",
+   "glass": "Collins",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "p_feslegen",
+     25
+    ],
+    [
+     "p_limonasit",
+     20
+    ],
+    [
+     "s_soda",
+     110,
+     "t"
+    ]
+   ],
+   "g": "Fesleğen yaprağı",
+   "br": "Linalool + osimen ↔ limonen"
+  },
+  {
+   "id": "z11",
+   "fam": "zero",
+   "zp": true,
+   "n": "Pineapple Cinnamon Cooler 0%",
+   "de": "Klare Ananas, Zimt und Soda.",
+   "base": "Zero",
+   "fmt": "top",
+   "glass": "Highball",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "p_ananas",
+     40
+    ],
+    [
+     "p_tarcin",
+     10
+    ],
+    [
+     "s_soda",
+     110,
+     "t"
+    ]
+   ],
+   "g": "Tarçın çubuğu",
+   "br": "Esterler ↔ sinamaldehit"
+  },
+  {
+   "id": "z12",
+   "fam": "zero",
+   "zp": true,
+   "n": "Thyme Honey Lemon Tonic 0%",
+   "de": "Thymianhonig, Zitrone und Tonic.",
+   "base": "Zero",
+   "fmt": "top",
+   "glass": "Highball",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "p_bal",
+     20
+    ],
+    [
+     "p_limonasit",
+     15
+    ],
+    [
+     "s_tonik",
+     110,
+     "t"
+    ]
+   ],
+   "g": "Kekik dalı",
+   "br": "Timol ↔ limonen + kinin"
+  },
+  {
+   "id": "z13",
+   "fam": "zero",
+   "zp": true,
+   "n": "Orange Oleo Ginger Beer 0%",
+   "de": "Orangen-Oleo, Limette und Ginger Beer.",
+   "base": "Zero",
+   "fmt": "top",
+   "glass": "Highball",
+   "ice": "Buz dolu",
+   "ings": [
+    [
+     "p_portakal",
+     20
+    ],
+    [
+     "p_laymasit",
+     10
+    ],
+    [
+     "s_gingerbeer",
+     120,
+     "t"
+    ]
+   ],
+   "g": "Portakal dilimi",
+   "br": "Limonen ↔ sitral"
+  }
+ ]
+}
